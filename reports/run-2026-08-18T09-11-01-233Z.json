@@ -1,0 +1,1424 @@
+[
+  {
+    "repo": "affaan-m/ECC",
+    "sha": "d0366ea8e8d21649d8e98d3e87e851f87bffc9be",
+    "subject": "Merge pull request #2800 from affaan-m/affaan/nasiko-control-plane-integration",
+    "url": "https://github.com/affaan-m/ECC/commit/d0366ea8e8d21649d8e98d3e87e851f87bffc9be",
+    "flagged": true,
+    "reasons": [
+      "risk level HIGH"
+    ],
+    "riskLevel": "HIGH",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "affaan-m/ECC",
+    "sha": "dcbf95bf63dc67701564198df9c3451940a2ca83",
+    "subject": "docs(readme): surface self-hosted docs, add star-history badges and chart",
+    "url": "https://github.com/affaan-m/ECC/commit/dcbf95bf63dc67701564198df9c3451940a2ca83",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 1
+  },
+  {
+    "repo": "affaan-m/ECC",
+    "sha": "f34e4319b1668b16c997fddcd23e897439b94f62",
+    "subject": "test: fix Nasiko Windows status expectation",
+    "url": "https://github.com/affaan-m/ECC/commit/f34e4319b1668b16c997fddcd23e897439b94f62",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "LOW",
+    "provenCount": 0,
+    "verifyCount": 0
+  },
+  {
+    "repo": "affaan-m/ECC",
+    "sha": "50743cec75852e32d6517c9894a3339a2462a713",
+    "subject": "Merge pull request #2802 from affaan-m/affaan/nasiko-windows-ci-hotfix",
+    "url": "https://github.com/affaan-m/ECC/commit/50743cec75852e32d6517c9894a3339a2462a713",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "LOW",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "affaan-m/ECC",
+    "sha": "06c5e118c4d3e6c3b7f9445f973a2194c82de193",
+    "subject": "test(release): verify packed Ito distribution (#2803)",
+    "url": "https://github.com/affaan-m/ECC/commit/06c5e118c4d3e6c3b7f9445f973a2194c82de193",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "LOW",
+    "provenCount": 0,
+    "verifyCount": 2
+  },
+  {
+    "repo": "bytedance/deer-flow",
+    "sha": "f0276c9f5ae82e292b946457cdd4b2cf0c827a24",
+    "subject": "fix(memory): validate Honcho timeout and character limits (#4783)",
+    "url": "https://github.com/bytedance/deer-flow/commit/f0276c9f5ae82e292b946457cdd4b2cf0c827a24",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "bytedance/deer-flow",
+    "sha": "7e4996eef34d037adcb9786527d0aa2ebe140ba7",
+    "subject": "fix(frontend): surface model loading failures (#4840)",
+    "url": "https://github.com/bytedance/deer-flow/commit/7e4996eef34d037adcb9786527d0aa2ebe140ba7",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 0
+  },
+  {
+    "repo": "bytedance/deer-flow",
+    "sha": "37e19bc445429482c938776b0623685c72212e83",
+    "subject": "fix(ci): fix the lint and unit test errors in backend",
+    "url": "https://github.com/bytedance/deer-flow/commit/37e19bc445429482c938776b0623685c72212e83",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 1
+  },
+  {
+    "repo": "bytedance/deer-flow",
+    "sha": "69c9a2022c4b3317e47520bd515ecabf82dddeef",
+    "subject": "fix(sandbox): bound aggregate E2B mount upload work (#4842)",
+    "url": "https://github.com/bytedance/deer-flow/commit/69c9a2022c4b3317e47520bd515ecabf82dddeef",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 3
+  },
+  {
+    "repo": "bytedance/deer-flow",
+    "sha": "0debff98c1caf4a7d3047e8ef162d85a841b5c6d",
+    "subject": "docs: fix broken star history charts across READMEs (#4845)",
+    "url": "https://github.com/bytedance/deer-flow/commit/0debff98c1caf4a7d3047e8ef162d85a841b5c6d",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "LOW",
+    "provenCount": 0,
+    "verifyCount": 2
+  },
+  {
+    "repo": "calesthio/OpenMontage",
+    "sha": "37d3454a5d6d9f549eae1fe6e9599f9abc5da700",
+    "subject": "Merge remote-tracking branch 'origin/main' into codex/add-gemini-seedance-minimax-models",
+    "url": "https://github.com/calesthio/OpenMontage/commit/37d3454a5d6d9f549eae1fe6e9599f9abc5da700",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "LOW",
+    "provenCount": 0,
+    "verifyCount": 2
+  },
+  {
+    "repo": "calesthio/OpenMontage",
+    "sha": "3204da531a76a60daa619867c38e4afeab9b9570",
+    "subject": "docs: normalize model skill formatting",
+    "url": "https://github.com/calesthio/OpenMontage/commit/3204da531a76a60daa619867c38e4afeab9b9570",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "LOW",
+    "provenCount": 0,
+    "verifyCount": 0
+  },
+  {
+    "repo": "calesthio/OpenMontage",
+    "sha": "6c5ee75eeeeb1288eae621433d15d86ca6250f8e",
+    "subject": "Merge pull request #503 from calesthio/codex/add-gemini-seedance-minimax-models",
+    "url": "https://github.com/calesthio/OpenMontage/commit/6c5ee75eeeeb1288eae621433d15d86ca6250f8e",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "calesthio/OpenMontage",
+    "sha": "133255fe3fe2cbcc108bb8fbb6893c2c488671f1",
+    "subject": "docs: feature documentary and 3D world showcases",
+    "url": "https://github.com/calesthio/OpenMontage/commit/133255fe3fe2cbcc108bb8fbb6893c2c488671f1",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "LOW",
+    "provenCount": 0,
+    "verifyCount": 1
+  },
+  {
+    "repo": "calesthio/OpenMontage",
+    "sha": "95e1c3d0ab93482159818560f6a8c8e866b9139f",
+    "subject": "Merge pull request #504 from calesthio/codex/readme-documentary-3d",
+    "url": "https://github.com/calesthio/OpenMontage/commit/95e1c3d0ab93482159818560f6a8c8e866b9139f",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "LOW",
+    "provenCount": 0,
+    "verifyCount": 2
+  },
+  {
+    "repo": "codeceptjs/CodeceptJS",
+    "sha": "c046f64afb42dbce0347e8f578c85945843d646c",
+    "subject": "Merge pull request #5627 from codeceptjs/dependabot/npm_and_yarn/4.x/graphql-16.14.2",
+    "url": "https://github.com/codeceptjs/CodeceptJS/commit/c046f64afb42dbce0347e8f578c85945843d646c",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 2
+  },
+  {
+    "repo": "codeceptjs/CodeceptJS",
+    "sha": "8b918159193d4f9ff8d4eb6e7f720c168266e299",
+    "subject": "Merge pull request #5625 from codeceptjs/dependabot/npm_and_yarn/4.x/monocart-coverage-reports-2.12.12",
+    "url": "https://github.com/codeceptjs/CodeceptJS/commit/8b918159193d4f9ff8d4eb6e7f720c168266e299",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 2
+  },
+  {
+    "repo": "codeceptjs/CodeceptJS",
+    "sha": "b4865fb88f29d6e7ea12d27cdd8e58e37bdfd90d",
+    "subject": "fix: workerInitializationDelay is not hardcoded (#5676)",
+    "url": "https://github.com/codeceptjs/CodeceptJS/commit/b4865fb88f29d6e7ea12d27cdd8e58e37bdfd90d",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 3
+  },
+  {
+    "repo": "codeceptjs/CodeceptJS",
+    "sha": "6a5ce8d341015718f559b385bd1794c961bfe735",
+    "subject": "fix(ci): dont run appium tests for PRs from forked repos",
+    "url": "https://github.com/codeceptjs/CodeceptJS/commit/6a5ce8d341015718f559b385bd1794c961bfe735",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "LOW",
+    "provenCount": 0,
+    "verifyCount": 1
+  },
+  {
+    "repo": "codeceptjs/CodeceptJS",
+    "sha": "eb1bcdc533b79ae75e21a6ede19afd45f9b06631",
+    "subject": "fix(ci): dont run appium tests for PRs from forked repos",
+    "url": "https://github.com/codeceptjs/CodeceptJS/commit/eb1bcdc533b79ae75e21a6ede19afd45f9b06631",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "LOW",
+    "provenCount": 0,
+    "verifyCount": 2
+  },
+  {
+    "repo": "denoland/deno",
+    "sha": "7d88089a933909e1393e38052cd9400b76761ec5",
+    "subject": "fix(node): validate raw outgoing HTTP headers (#36471)",
+    "url": "https://github.com/denoland/deno/commit/7d88089a933909e1393e38052cd9400b76761ec5",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "denoland/deno",
+    "sha": "8c76f75af7219059efc78c524ba8d843212e948b",
+    "subject": "fix(node): preserve v8 deserializer view offsets (#36460)",
+    "url": "https://github.com/denoland/deno/commit/8c76f75af7219059efc78c524ba8d843212e948b",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "denoland/deno",
+    "sha": "e51843701f12e314e3d7aa6091b16a1f0d412b9c",
+    "subject": "fix(node_crypto): size cipher updates by byte length (#36459)",
+    "url": "https://github.com/denoland/deno/commit/e51843701f12e314e3d7aa6091b16a1f0d412b9c",
+    "flagged": true,
+    "reasons": [
+      "security/auth-sensitive commit message",
+      "security/auth-sensitive file path"
+    ],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "denoland/deno",
+    "sha": "b90cd5c3a93c303b220cee020d452a136caa7b9f",
+    "subject": "fix(process): reject NULs in Windows arguments (#36436)",
+    "url": "https://github.com/denoland/deno/commit/b90cd5c3a93c303b220cee020d452a136caa7b9f",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 3
+  },
+  {
+    "repo": "denoland/deno",
+    "sha": "1dea13db8200f09ad14f1299fd116ca67ccc470b",
+    "subject": "fix(fetch): require an initial multipart boundary (#36470)",
+    "url": "https://github.com/denoland/deno/commit/1dea13db8200f09ad14f1299fd116ca67ccc470b",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 3
+  },
+  {
+    "repo": "erictik/midjourney-api",
+    "sha": "9f78a5b9a9e4d699add1b27c5de7d33142f5aca5",
+    "subject": "Merge pull request #292 from cunderw/fix-discord-returning-nonces",
+    "url": "https://github.com/erictik/midjourney-api/commit/9f78a5b9a9e4d699add1b27c5de7d33142f5aca5",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "erictik/midjourney-api",
+    "sha": "04574ca93a97509e487cfa067a503f27f3e1f815",
+    "subject": "Add GitHub funding model to FUNDING.yml",
+    "url": "https://github.com/erictik/midjourney-api/commit/04574ca93a97509e487cfa067a503f27f3e1f815",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 1
+  },
+  {
+    "repo": "erictik/midjourney-api",
+    "sha": "7e0d052cbc0ce6f3d0d3d3bc34c1068d48c0a252",
+    "subject": "fix(command): remove dead code in cacheCommand and require ServerId for guild API",
+    "url": "https://github.com/erictik/midjourney-api/commit/7e0d052cbc0ce6f3d0d3d3bc34c1068d48c0a252",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 3
+  },
+  {
+    "repo": "erictik/midjourney-api",
+    "sha": "f9df68d350ecac8976ebab6228f9089e087bb4b2",
+    "subject": "Merge pull request #296 from kapil971390/fix/command-cache-and-server-id",
+    "url": "https://github.com/erictik/midjourney-api/commit/f9df68d350ecac8976ebab6228f9089e087bb4b2",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "erictik/midjourney-api",
+    "sha": "da5aeeee59ee9db8c89068b4036fed47a8d2dfcc",
+    "subject": "Add custom funding link to FUNDING.yml",
+    "url": "https://github.com/erictik/midjourney-api/commit/da5aeeee59ee9db8c89068b4036fed47a8d2dfcc",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 1
+  },
+  {
+    "repo": "future-agi/future-agi",
+    "sha": "ccfe9d2e280146d11900f1711f52d1a1bc980553",
+    "subject": "Merge pull request #2113 from future-agi/fix/TH-7493-eval-fk-read-projection",
+    "url": "https://github.com/future-agi/future-agi/commit/ccfe9d2e280146d11900f1711f52d1a1bc980553",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "future-agi/future-agi",
+    "sha": "1ea769da3ee5b0ac37c43c6654ca10815662b415",
+    "subject": "Merge pull request #2114 from future-agi/dev",
+    "url": "https://github.com/future-agi/future-agi/commit/1ea769da3ee5b0ac37c43c6654ca10815662b415",
+    "flagged": true,
+    "reasons": [
+      "risk level HIGH"
+    ],
+    "riskLevel": "HIGH",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "future-agi/future-agi",
+    "sha": "fdf962b81f10c201af5dba7acda181ce20807027",
+    "subject": "chore(main): release 1.27.4",
+    "url": "https://github.com/future-agi/future-agi/commit/fdf962b81f10c201af5dba7acda181ce20807027",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 1
+  },
+  {
+    "repo": "future-agi/future-agi",
+    "sha": "c5791fa6a2a91e9cd09cc26a6286de76f1ac0070",
+    "subject": "Merge pull request #2111 from future-agi/release-please--branches--main",
+    "url": "https://github.com/future-agi/future-agi/commit/c5791fa6a2a91e9cd09cc26a6286de76f1ac0070",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 0
+  },
+  {
+    "repo": "future-agi/future-agi",
+    "sha": "9ad11859b26294714b526cb5f061bbda60a3f7a1",
+    "subject": "Merge pull request #2012 from future-agi/docs/update-readme-demo-video",
+    "url": "https://github.com/future-agi/future-agi/commit/9ad11859b26294714b526cb5f061bbda60a3f7a1",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "LOW",
+    "provenCount": 0,
+    "verifyCount": 2
+  },
+  {
+    "repo": "grpc/grpc-go",
+    "sha": "538bb2f7af6e36be46ec1d2ae90f65b972f14083",
+    "subject": "endpointsharding: decouple locking, and simplify ChildState API (#9290)",
+    "url": "https://github.com/grpc/grpc-go/commit/538bb2f7af6e36be46ec1d2ae90f65b972f14083",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "grpc/grpc-go",
+    "sha": "54c743e4e9829208f264e092160d2b0768a01bf2",
+    "subject": "extproc : wait for async RPC to complete in test (#9311)",
+    "url": "https://github.com/grpc/grpc-go/commit/54c743e4e9829208f264e092160d2b0768a01bf2",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "grpc/grpc-go",
+    "sha": "30ce1d594fa9d7b86ff9d3d7dd7873ef0c161acf",
+    "subject": "xds: support injecting bootstrap and server config into HTTP filter config parsing (A102) (#9315)",
+    "url": "https://github.com/grpc/grpc-go/commit/30ce1d594fa9d7b86ff9d3d7dd7873ef0c161acf",
+    "flagged": true,
+    "reasons": [
+      "security/auth-sensitive commit message",
+      "security/auth-sensitive file path"
+    ],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 3
+  },
+  {
+    "repo": "grpc/grpc-go",
+    "sha": "b6685c50ff9858588298cf9b53515febe1c41f0e",
+    "subject": "Change version to 1.85.0-dev (#9326)",
+    "url": "https://github.com/grpc/grpc-go/commit/b6685c50ff9858588298cf9b53515febe1c41f0e",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 1
+  },
+  {
+    "repo": "grpc/grpc-go",
+    "sha": "b6f4ff622ced23ea5854d2db26841748a481352b",
+    "subject": "deps: update dependencies for all modules (#9327)",
+    "url": "https://github.com/grpc/grpc-go/commit/b6f4ff622ced23ea5854d2db26841748a481352b",
+    "flagged": true,
+    "reasons": [
+      "security/auth-sensitive file path"
+    ],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "harry0703/MoneyPrinterTurbo",
+    "sha": "fafa572ef52bdcc14ae5c0842fcc5c360d3e38c7",
+    "subject": "feat: add MiniMax text-to-speech support",
+    "url": "https://github.com/harry0703/MoneyPrinterTurbo/commit/fafa572ef52bdcc14ae5c0842fcc5c360d3e38c7",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "harry0703/MoneyPrinterTurbo",
+    "sha": "759ef2b1759ee27b8530c3bbfd8e642f43f8d0cf",
+    "subject": "fix: add MiniMax TTS translation keys",
+    "url": "https://github.com/harry0703/MoneyPrinterTurbo/commit/759ef2b1759ee27b8530c3bbfd8e642f43f8d0cf",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "LOW",
+    "provenCount": 0,
+    "verifyCount": 2
+  },
+  {
+    "repo": "harry0703/MoneyPrinterTurbo",
+    "sha": "77efd6b38fadcab2b9534592a4692d63ff1bb9e5",
+    "subject": "Merge pull request #1175 from octo-patch/octo/20260812-tts-tool-recvq8IPRiDh7a",
+    "url": "https://github.com/harry0703/MoneyPrinterTurbo/commit/77efd6b38fadcab2b9534592a4692d63ff1bb9e5",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "harry0703/MoneyPrinterTurbo",
+    "sha": "1f9f19c2021a68d04df228f33e9099a0c947f6f8",
+    "subject": "feat(tts): improve MiniMax voice selection",
+    "url": "https://github.com/harry0703/MoneyPrinterTurbo/commit/1f9f19c2021a68d04df228f33e9099a0c947f6f8",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "harry0703/MoneyPrinterTurbo",
+    "sha": "b42e945b497176c823579f9b1895d9323446de23",
+    "subject": "chore: update project resources",
+    "url": "https://github.com/harry0703/MoneyPrinterTurbo/commit/b42e945b497176c823579f9b1895d9323446de23",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 1
+  },
+  {
+    "repo": "JuliusBrussee/caveman",
+    "sha": "54ec7326a09ac917cf4020e55cd9887f8ecf0359",
+    "subject": "release: pin v2.1.0 installers, bin-v1.1.0 binaries",
+    "url": "https://github.com/JuliusBrussee/caveman/commit/54ec7326a09ac917cf4020e55cd9887f8ecf0359",
+    "flagged": true,
+    "reasons": [
+      "risk level HIGH"
+    ],
+    "riskLevel": "HIGH",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "JuliusBrussee/caveman",
+    "sha": "f8b6bfc7c7d3db38acae062070bf5d89f4d49ebf",
+    "subject": "Merge remote-tracking branch 'origin/main' into optimized",
+    "url": "https://github.com/JuliusBrussee/caveman/commit/f8b6bfc7c7d3db38acae062070bf5d89f4d49ebf",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "LOW",
+    "provenCount": 0,
+    "verifyCount": 0
+  },
+  {
+    "repo": "JuliusBrussee/caveman",
+    "sha": "deb400a5776a5f053105627ffe658222e7a6cd4d",
+    "subject": "chore: sync SKILL.md copies [skip ci]",
+    "url": "https://github.com/JuliusBrussee/caveman/commit/deb400a5776a5f053105627ffe658222e7a6cd4d",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 3
+  },
+  {
+    "repo": "JuliusBrussee/caveman",
+    "sha": "09e9ed72be873b32d241ac525b3b4070aaaebafa",
+    "subject": "release: cli 1.2.0 on bin-v1.1.0 runtime",
+    "url": "https://github.com/JuliusBrussee/caveman/commit/09e9ed72be873b32d241ac525b3b4070aaaebafa",
+    "flagged": true,
+    "reasons": [
+      "risk level HIGH"
+    ],
+    "riskLevel": "HIGH",
+    "provenCount": 0,
+    "verifyCount": 2
+  },
+  {
+    "repo": "JuliusBrussee/caveman",
+    "sha": "766dce6b1394ebb56a3090748d5a0240a5aefb36",
+    "subject": "Merge remote-tracking branch 'origin/main' into optimized",
+    "url": "https://github.com/JuliusBrussee/caveman/commit/766dce6b1394ebb56a3090748d5a0240a5aefb36",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "krillinai/KrillinAI",
+    "sha": "78ac14a39a55ace483483dbea367e03f7fa71aae",
+    "subject": "Merge pull request #297 from kapil971390/fix/file-download-path-traversal",
+    "url": "https://github.com/krillinai/KrillinAI/commit/78ac14a39a55ace483483dbea367e03f7fa71aae",
+    "flagged": true,
+    "reasons": [
+      "security/auth-sensitive commit message"
+    ],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 3
+  },
+  {
+    "repo": "krillinai/KrillinAI",
+    "sha": "1e4d8b2e81baaa7fc7170f8492c6874a9a2c8921",
+    "subject": "docs: add growth skills entry to readme",
+    "url": "https://github.com/krillinai/KrillinAI/commit/1e4d8b2e81baaa7fc7170f8492c6874a9a2c8921",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "LOW",
+    "provenCount": 0,
+    "verifyCount": 1
+  },
+  {
+    "repo": "krillinai/KrillinAI",
+    "sha": "2f5da0913fc9699d24078e654fdcf57049369471",
+    "subject": "docs: link growth skills from introduction",
+    "url": "https://github.com/krillinai/KrillinAI/commit/2f5da0913fc9699d24078e654fdcf57049369471",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "LOW",
+    "provenCount": 0,
+    "verifyCount": 2
+  },
+  {
+    "repo": "krillinai/KrillinAI",
+    "sha": "22ee0645efbaeaefb1694769cd59eae3f06fbba8",
+    "subject": "docs: link growth skills from localized introductions",
+    "url": "https://github.com/krillinai/KrillinAI/commit/22ee0645efbaeaefb1694769cd59eae3f06fbba8",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "LOW",
+    "provenCount": 0,
+    "verifyCount": 2
+  },
+  {
+    "repo": "krillinai/KrillinAI",
+    "sha": "a9f4ec207925d9ae702b2064d11607d1ba3bfef6",
+    "subject": "Update Growee Skills references (#309)",
+    "url": "https://github.com/krillinai/KrillinAI/commit/a9f4ec207925d9ae702b2064d11607d1ba3bfef6",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "LOW",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "Lum1104/Understand-Anything",
+    "sha": "fe8c5bc591716aafd79b4765549328f08ef5a52e",
+    "subject": "Merge pull request #609 from KumamuKuma/fix/posttooluse-additional-context",
+    "url": "https://github.com/Lum1104/Understand-Anything/commit/fe8c5bc591716aafd79b4765549328f08ef5a52e",
+    "flagged": true,
+    "reasons": [
+      "risk level HIGH"
+    ],
+    "riskLevel": "HIGH",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "Lum1104/Understand-Anything",
+    "sha": "7432f19bc769edc900c9c2c9e32ac56fe044f42f",
+    "subject": "fix: ignore generated artifacts during auto-update",
+    "url": "https://github.com/Lum1104/Understand-Anything/commit/7432f19bc769edc900c9c2c9e32ac56fe044f42f",
+    "flagged": true,
+    "reasons": [
+      "security/auth-sensitive file path"
+    ],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 3
+  },
+  {
+    "repo": "Lum1104/Understand-Anything",
+    "sha": "797ce7969312411be2e125c39628854166f055d7",
+    "subject": "Merge pull request #634 from SulimanAbdulrazzaq/fix/auto-update-generated-artifacts",
+    "url": "https://github.com/Lum1104/Understand-Anything/commit/797ce7969312411be2e125c39628854166f055d7",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "Lum1104/Understand-Anything",
+    "sha": "637b6604bbc1c16dffa42d579c004102fe29706d",
+    "subject": "fix(skills): save onboarding guide as UA_ONBOARDING.md",
+    "url": "https://github.com/Lum1104/Understand-Anything/commit/637b6604bbc1c16dffa42d579c004102fe29706d",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "LOW",
+    "provenCount": 0,
+    "verifyCount": 1
+  },
+  {
+    "repo": "Lum1104/Understand-Anything",
+    "sha": "32944829e7a63a9fa9c55d811d7f98a9530c6a6a",
+    "subject": "Merge pull request #637 from Lixxx1/codex/issue-591-ua-onboarding",
+    "url": "https://github.com/Lum1104/Understand-Anything/commit/32944829e7a63a9fa9c55d811d7f98a9530c6a6a",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "LOW",
+    "provenCount": 0,
+    "verifyCount": 1
+  },
+  {
+    "repo": "lyogavin/airllm",
+    "sha": "9f3276980f6a05fcb1786143027ada7b3d79dbe8",
+    "subject": "chore: refresh star history chart",
+    "url": "https://github.com/lyogavin/airllm/commit/9f3276980f6a05fcb1786143027ada7b3d79dbe8",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 0
+  },
+  {
+    "repo": "lyogavin/airllm",
+    "sha": "f640e23b108b60c419f906a5baffa8f982fc013a",
+    "subject": "chore: refresh star history chart",
+    "url": "https://github.com/lyogavin/airllm/commit/f640e23b108b60c419f906a5baffa8f982fc013a",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 0
+  },
+  {
+    "repo": "lyogavin/airllm",
+    "sha": "c7724737cc2f6396b903e6ce209fcc4b055e20a1",
+    "subject": "chore: refresh star history chart",
+    "url": "https://github.com/lyogavin/airllm/commit/c7724737cc2f6396b903e6ce209fcc4b055e20a1",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 0
+  },
+  {
+    "repo": "lyogavin/airllm",
+    "sha": "5d91fb6bdd2c0a22c1d6503320172458005ca22e",
+    "subject": "chore: refresh star history chart",
+    "url": "https://github.com/lyogavin/airllm/commit/5d91fb6bdd2c0a22c1d6503320172458005ca22e",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 0
+  },
+  {
+    "repo": "lyogavin/airllm",
+    "sha": "8c14c8e6d348c68af34b9716a588724e84259764",
+    "subject": "chore: refresh star history chart",
+    "url": "https://github.com/lyogavin/airllm/commit/8c14c8e6d348c68af34b9716a588724e84259764",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 0
+  },
+  {
+    "repo": "magento/magento2",
+    "sha": "4b1633a74ca1b914494a2f192fbc5bde0aa8a0ce",
+    "subject": "Merge remote-tracking branch '40872/38958-minicart-twice-on-samepage' into augprs",
+    "url": "https://github.com/magento/magento2/commit/4b1633a74ca1b914494a2f192fbc5bde0aa8a0ce",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "magento/magento2",
+    "sha": "e650aad6d22d75e3c4b88d2a0da93d13b6ff8f2d",
+    "subject": "Merge remote-tracking branch '40872/36632-wrong-menu-redirection' into augprs",
+    "url": "https://github.com/magento/magento2/commit/e650aad6d22d75e3c4b88d2a0da93d13b6ff8f2d",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "magento/magento2",
+    "sha": "6e6f5641867d480695c44211d558e7c78d801994",
+    "subject": "Merge remote-tracking branch '40872/fix-di-xml-numeric-item-key-36861' into augprs",
+    "url": "https://github.com/magento/magento2/commit/6e6f5641867d480695c44211d558e7c78d801994",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 3
+  },
+  {
+    "repo": "magento/magento2",
+    "sha": "b07bba5a17cbe51b748f096c36e693d1933cc909",
+    "subject": "Merge remote-tracking branch '40657/perf/store-memoize-has-single-store' into augprs",
+    "url": "https://github.com/magento/magento2/commit/b07bba5a17cbe51b748f096c36e693d1933cc909",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "magento/magento2",
+    "sha": "011a4d0a5ad75945b2573ad01cd5815b1e4f6c52",
+    "subject": "Merge pull request #10903 from magento-gl/augprs",
+    "url": "https://github.com/magento/magento2/commit/011a4d0a5ad75945b2573ad01cd5815b1e4f6c52",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 2
+  },
+  {
+    "repo": "medusajs/medusa",
+    "sha": "b2a51cc4ca9d56774c0e7c5fdf04af9f9347f206",
+    "subject": "docs: fix two dead documentation links (#16454)",
+    "url": "https://github.com/medusajs/medusa/commit/b2a51cc4ca9d56774c0e7c5fdf04af9f9347f206",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "LOW",
+    "provenCount": 0,
+    "verifyCount": 0
+  },
+  {
+    "repo": "medusajs/medusa",
+    "sha": "84a01054640b65c9ce59d044712b45587a9740a3",
+    "subject": "docs: expose cloud changelog through API (#16468)",
+    "url": "https://github.com/medusajs/medusa/commit/84a01054640b65c9ce59d044712b45587a9740a3",
+    "flagged": true,
+    "reasons": [
+      "risk level HIGH"
+    ],
+    "riskLevel": "HIGH",
+    "provenCount": 0,
+    "verifyCount": 3
+  },
+  {
+    "repo": "medusajs/medusa",
+    "sha": "d29612ef9c991583d6d46c0621cdc133271a8c69",
+    "subject": "docs: generate titles for changelog entries (#16470)",
+    "url": "https://github.com/medusajs/medusa/commit/d29612ef9c991583d6d46c0621cdc133271a8c69",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 2
+  },
+  {
+    "repo": "medusajs/medusa",
+    "sha": "1d756dca9fb188fd71c226d65d5a1049662c224b",
+    "subject": "docs: fix workflow types in references not expanding children correctly (#16471)",
+    "url": "https://github.com/medusajs/medusa/commit/1d756dca9fb188fd71c226d65d5a1049662c224b",
+    "flagged": true,
+    "reasons": [
+      "security/auth-sensitive file path"
+    ],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 0
+  },
+  {
+    "repo": "medusajs/medusa",
+    "sha": "15a56a2ac9fd8faf28221a33e86fb4e1985199af",
+    "subject": "docs: resolve MDX primitives for the markdown version of the update page (#16472)",
+    "url": "https://github.com/medusajs/medusa/commit/15a56a2ac9fd8faf28221a33e86fb4e1985199af",
+    "flagged": true,
+    "reasons": [
+      "risk level HIGH"
+    ],
+    "riskLevel": "HIGH",
+    "provenCount": 0,
+    "verifyCount": 0
+  },
+  {
+    "repo": "n8n-io/n8n",
+    "sha": "34e1da0447ba653cb963ec28ef05baece4ce123d",
+    "subject": "refactor(core): Dedup formatBytes and toMb into @n8n/utils (no-changelog) (#36218)",
+    "url": "https://github.com/n8n-io/n8n/commit/34e1da0447ba653cb963ec28ef05baece4ce123d",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 3
+  },
+  {
+    "repo": "n8n-io/n8n",
+    "sha": "3c86410bf9b03d470dcee4bd3389532008a00623",
+    "subject": "feat(Microsoft SharePoint Node): Register version 2 and make it the default (#36459)",
+    "url": "https://github.com/n8n-io/n8n/commit/3c86410bf9b03d470dcee4bd3389532008a00623",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 3
+  },
+  {
+    "repo": "n8n-io/n8n",
+    "sha": "ce6ed3cda72c50c28f517655221b55c02bb5d775",
+    "subject": "feat(editor): Add stop execution button to the NDV (#36444)",
+    "url": "https://github.com/n8n-io/n8n/commit/ce6ed3cda72c50c28f517655221b55c02bb5d775",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "n8n-io/n8n",
+    "sha": "76c6721129570578d997aa1b69c31f6bb0539c27",
+    "subject": "fix(editor): Show proper MCP server status in AI Assistant UI (#36180)",
+    "url": "https://github.com/n8n-io/n8n/commit/76c6721129570578d997aa1b69c31f6bb0539c27",
+    "flagged": true,
+    "reasons": [
+      "risk level HIGH",
+      "security/auth-sensitive file path"
+    ],
+    "riskLevel": "HIGH",
+    "provenCount": 0,
+    "verifyCount": 3
+  },
+  {
+    "repo": "n8n-io/n8n",
+    "sha": "1cd8c91a207de28bc212d932c8d4b95eedec0391",
+    "subject": "feat(API): Add endpoint to delete a custom role (#36417)",
+    "url": "https://github.com/n8n-io/n8n/commit/1cd8c91a207de28bc212d932c8d4b95eedec0391",
+    "flagged": true,
+    "reasons": [
+      "security/auth-sensitive file path"
+    ],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 3
+  },
+  {
+    "repo": "NanmiCoder/MediaCrawler",
+    "sha": "3c25521bbb538ff7ba1faab88ca11c1a4aabab29",
+    "subject": "Merge pull request #958 from ottercoconut/agent/fix-xhs-raw-response-errors",
+    "url": "https://github.com/NanmiCoder/MediaCrawler/commit/3c25521bbb538ff7ba1faab88ca11c1a4aabab29",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "NanmiCoder/MediaCrawler",
+    "sha": "d594c20c13f46c368bfec133de3a4f1a97cd4d79",
+    "subject": "fix(xhs,bilibili): 修复访问受限异常击穿与评论采集边界问题",
+    "url": "https://github.com/NanmiCoder/MediaCrawler/commit/d594c20c13f46c368bfec133de3a4f1a97cd4d79",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "NanmiCoder/MediaCrawler",
+    "sha": "439509782cc2991c8ef7648e178d5847b0545798",
+    "subject": "update readme",
+    "url": "https://github.com/NanmiCoder/MediaCrawler/commit/439509782cc2991c8ef7648e178d5847b0545798",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 1
+  },
+  {
+    "repo": "NanmiCoder/MediaCrawler",
+    "sha": "5665a271ef15e0ec82b1f48a951b66760e054db9",
+    "subject": "docs: update README",
+    "url": "https://github.com/NanmiCoder/MediaCrawler/commit/5665a271ef15e0ec82b1f48a951b66760e054db9",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 0
+  },
+  {
+    "repo": "NanmiCoder/MediaCrawler",
+    "sha": "d6f7c5bb906b6dac40ddf343ef9e26438a3de092",
+    "subject": "docs: update README.md",
+    "url": "https://github.com/NanmiCoder/MediaCrawler/commit/d6f7c5bb906b6dac40ddf343ef9e26438a3de092",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 0
+  },
+  {
+    "repo": "ogulcancelik/herdr",
+    "sha": "b3166d794e758c074d706fcab5864a9f4e7e2c2c",
+    "subject": "fix(docs): link agents to config reference data",
+    "url": "https://github.com/ogulcancelik/herdr/commit/b3166d794e758c074d706fcab5864a9f4e7e2c2c",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "ogulcancelik/herdr",
+    "sha": "eac54b84b8335f0ec9b941a2dcb8da25d860fc08",
+    "subject": "feat(website): plugin marketplace discovery shelves — trending and new arrivals",
+    "url": "https://github.com/ogulcancelik/herdr/commit/eac54b84b8335f0ec9b941a2dcb8da25d860fc08",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "ogulcancelik/herdr",
+    "sha": "b177acf014d57e8deaf0ba5934b9ddf5f252e8d6",
+    "subject": "fix(website): raise timeout on docs release integration test for slow builders",
+    "url": "https://github.com/ogulcancelik/herdr/commit/b177acf014d57e8deaf0ba5934b9ddf5f252e8d6",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "LOW",
+    "provenCount": 0,
+    "verifyCount": 1
+  },
+  {
+    "repo": "ogulcancelik/herdr",
+    "sha": "d497ee14dd3f2b5325a16d0de779ed6bd62178ee",
+    "subject": "fix: retry Windows installer activation after transient locks (#2921)",
+    "url": "https://github.com/ogulcancelik/herdr/commit/d497ee14dd3f2b5325a16d0de779ed6bd62178ee",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 3
+  },
+  {
+    "repo": "ogulcancelik/herdr",
+    "sha": "2d24950ad9a02096921bc764e2e3dcd8900c3366",
+    "subject": "fix: isolate hidden pane render cadence (#2892)",
+    "url": "https://github.com/ogulcancelik/herdr/commit/2d24950ad9a02096921bc764e2e3dcd8900c3366",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "ohmyzsh/ohmyzsh",
+    "sha": "1f9511f1321c11688de06c3895e75c3ac603060e",
+    "subject": "perf(kubectx)!: load context asynchronously (#13825)",
+    "url": "https://github.com/ohmyzsh/ohmyzsh/commit/1f9511f1321c11688de06c3895e75c3ac603060e",
+    "flagged": true,
+    "reasons": [
+      "risk level HIGH"
+    ],
+    "riskLevel": "HIGH",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "ohmyzsh/ohmyzsh",
+    "sha": "b54a71977574cfcf659cc2f15a5e6422f17a8da7",
+    "subject": "feat(laravel): add `pad` alias (#13927)",
+    "url": "https://github.com/ohmyzsh/ohmyzsh/commit/b54a71977574cfcf659cc2f15a5e6422f17a8da7",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 3
+  },
+  {
+    "repo": "ohmyzsh/ohmyzsh",
+    "sha": "0e98520c5be71ba782c095ad1929818cb6aa15cb",
+    "subject": "chore(deps): bump github/codeql-action/upload-sarif from 4.37.6 to 4.37.7 in the gha-minor group (#13959)",
+    "url": "https://github.com/ohmyzsh/ohmyzsh/commit/0e98520c5be71ba782c095ad1929818cb6aa15cb",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "LOW",
+    "provenCount": 0,
+    "verifyCount": 0
+  },
+  {
+    "repo": "ohmyzsh/ohmyzsh",
+    "sha": "178813b7b93af51d5069fa5e857a2b263e5bcc90",
+    "subject": "chore(deps): bump charset-normalizer from 3.4.9 to 3.5.0 in /.github/workflows/dependencies in the py-minor group (#13958)",
+    "url": "https://github.com/ohmyzsh/ohmyzsh/commit/178813b7b93af51d5069fa5e857a2b263e5bcc90",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "LOW",
+    "provenCount": 0,
+    "verifyCount": 1
+  },
+  {
+    "repo": "ohmyzsh/ohmyzsh",
+    "sha": "97e11051e2f8053b1d694788d1cb4b0dbb1e2365",
+    "subject": "chore(z): update to version 102fb780 (#13957)",
+    "url": "https://github.com/ohmyzsh/ohmyzsh/commit/97e11051e2f8053b1d694788d1cb4b0dbb1e2365",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 3
+  },
+  {
+    "repo": "OpenCut-app/OpenCut",
+    "sha": "cef8766acbccbae0b515c1ae2c0e67e4cf2e97ed",
+    "subject": "fix(desktop): fall back to XWayland under WSL2",
+    "url": "https://github.com/OpenCut-app/OpenCut/commit/cef8766acbccbae0b515c1ae2c0e67e4cf2e97ed",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "OpenCut-app/OpenCut",
+    "sha": "ccb67d9a952db94b76b4c44cfccffa1cb38126ff",
+    "subject": "feat(desktop): scaffold shell with browser/preview/inspector/timeline panels",
+    "url": "https://github.com/OpenCut-app/OpenCut/commit/ccb67d9a952db94b76b4c44cfccffa1cb38126ff",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "OpenCut-app/OpenCut",
+    "sha": "0f3ea7ef7f8fabdecd740cce1f7f91a39651beee",
+    "subject": "feat(web): add editor route stub",
+    "url": "https://github.com/OpenCut-app/OpenCut/commit/0f3ea7ef7f8fabdecd740cce1f7f91a39651beee",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 3
+  },
+  {
+    "repo": "OpenCut-app/OpenCut",
+    "sha": "4d8c49ed0706c4dc145361e01c6b1f1a87cbb863",
+    "subject": "style(web): format index route",
+    "url": "https://github.com/OpenCut-app/OpenCut/commit/4d8c49ed0706c4dc145361e01c6b1f1a87cbb863",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 0
+  },
+  {
+    "repo": "OpenCut-app/OpenCut",
+    "sha": "400f097becba5db0fbc305d5a65348cb81c20356",
+    "subject": "feat(desktop): add foundational GPUI primitives",
+    "url": "https://github.com/OpenCut-app/OpenCut/commit/400f097becba5db0fbc305d5a65348cb81c20356",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "palmier-io/palmier-pro",
+    "sha": "83f1cf4830b8eccceb541577c50305e0a7659606",
+    "subject": "[agent] Install Smart Search model on demand (#553)",
+    "url": "https://github.com/palmier-io/palmier-pro/commit/83f1cf4830b8eccceb541577c50305e0a7659606",
+    "flagged": true,
+    "reasons": [
+      "risk level HIGH"
+    ],
+    "riskLevel": "HIGH",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "palmier-io/palmier-pro",
+    "sha": "4f7ecfa3cc7a009621cd356cd59916ee63220888",
+    "subject": "[fix] Restore Home clicks after dismissing What's New (#555)",
+    "url": "https://github.com/palmier-io/palmier-pro/commit/4f7ecfa3cc7a009621cd356cd59916ee63220888",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 3
+  },
+  {
+    "repo": "palmier-io/palmier-pro",
+    "sha": "6f4d164374d333ec18706b868452fbb4e23540a7",
+    "subject": "[ui] Brighten dark editor surfaces and keep chat below the tab bar (#558)",
+    "url": "https://github.com/palmier-io/palmier-pro/commit/6f4d164374d333ec18706b868452fbb4e23540a7",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "palmier-io/palmier-pro",
+    "sha": "240779278adbd7a89784212d6b75a0563e3514ef",
+    "subject": "[ui] Make timeline index transcript-first (#557)",
+    "url": "https://github.com/palmier-io/palmier-pro/commit/240779278adbd7a89784212d6b75a0563e3514ef",
+    "flagged": true,
+    "reasons": [
+      "risk level HIGH"
+    ],
+    "riskLevel": "HIGH",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "palmier-io/palmier-pro",
+    "sha": "7d0bb7be94c7cc3b64dc0fcfec14b7104bbf0335",
+    "subject": "[ui] Dock the generation panel under media (#559)",
+    "url": "https://github.com/palmier-io/palmier-pro/commit/7d0bb7be94c7cc3b64dc0fcfec14b7104bbf0335",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "penpot/penpot",
+    "sha": "ed04d509ed4bb99f41c9cc4ccf8f7e3d7ba3f0b0",
+    "subject": ":bug: Fix bad managed error on backend sso failure (#11247)",
+    "url": "https://github.com/penpot/penpot/commit/ed04d509ed4bb99f41c9cc4ccf8f7e3d7ba3f0b0",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "penpot/penpot",
+    "sha": "f96d850049e07709480f867a15fa0ace1156e47c",
+    "subject": ":paperclip: Add ste skill to opencode",
+    "url": "https://github.com/penpot/penpot/commit/f96d850049e07709480f867a15fa0ace1156e47c",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "LOW",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "penpot/penpot",
+    "sha": "c797656d17da345fcfa4ca75ebd689809f69ed9d",
+    "subject": ":bug: Fix crash when pasting into an empty or element-focused caret (#11150)",
+    "url": "https://github.com/penpot/penpot/commit/c797656d17da345fcfa4ca75ebd689809f69ed9d",
+    "flagged": true,
+    "reasons": [
+      "risk level HIGH"
+    ],
+    "riskLevel": "HIGH",
+    "provenCount": 0,
+    "verifyCount": 2
+  },
+  {
+    "repo": "penpot/penpot",
+    "sha": "fb9f92ae6a5f915e64c7d22a543a376b1d348a19",
+    "subject": "Merge remote-tracking branch 'origin/staging' into develop",
+    "url": "https://github.com/penpot/penpot/commit/fb9f92ae6a5f915e64c7d22a543a376b1d348a19",
+    "flagged": true,
+    "reasons": [
+      "risk level HIGH"
+    ],
+    "riskLevel": "HIGH",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "penpot/penpot",
+    "sha": "7f2dc66e8662c2d801fb586c0eb67730cb6df705",
+    "subject": ":bug: Preserve public URI subpath in asset download URLs (#11234)",
+    "url": "https://github.com/penpot/penpot/commit/7f2dc66e8662c2d801fb586c0eb67730cb6df705",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "questdb/questdb",
+    "sha": "d39165a411721c24ffaadd064893b16b139c9b0e",
+    "subject": "fix(core): prevent false live view invalidation during concurrent refresh (#7512)",
+    "url": "https://github.com/questdb/questdb/commit/d39165a411721c24ffaadd064893b16b139c9b0e",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "questdb/questdb",
+    "sha": "edb79fe14034fbf316b0bb08694b9d7d76543259",
+    "subject": "fix(core): fix table suspension after a range replace removes its last partition (#7380)",
+    "url": "https://github.com/questdb/questdb/commit/edb79fe14034fbf316b0bb08694b9d7d76543259",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "questdb/questdb",
+    "sha": "b2fb19f721d9f2f984e98eb75b2b070aad151d8a",
+    "subject": "fix(sql): fix NULL results for count expressions in LEFT JOIN LATERAL (#7432)",
+    "url": "https://github.com/questdb/questdb/commit/b2fb19f721d9f2f984e98eb75b2b070aad151d8a",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "questdb/questdb",
+    "sha": "d8475e5e4f49e1bd0f0049187104ee3bf6d7db8c",
+    "subject": "fix(core): signal restore cancellation promptly on shutdown (#7361)",
+    "url": "https://github.com/questdb/questdb/commit/d8475e5e4f49e1bd0f0049187104ee3bf6d7db8c",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 0
+  },
+  {
+    "repo": "questdb/questdb",
+    "sha": "e4be1c0230b1418a3609265ca118a2bbc71078ff",
+    "subject": "fix(qwp): fix silent row loss after DROP in the qwpudp table-update cache (#7383)",
+    "url": "https://github.com/questdb/questdb/commit/e4be1c0230b1418a3609265ca118a2bbc71078ff",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "virattt/ai-hedge-fund",
+    "sha": "1d83ae0da2ecce70dad2d14c82a81fb8d088bd55",
+    "subject": "Update the command",
+    "url": "https://github.com/virattt/ai-hedge-fund/commit/1d83ae0da2ecce70dad2d14c82a81fb8d088bd55",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "virattt/ai-hedge-fund",
+    "sha": "1524bb17a73a7d94ab0ceb7ccc5f949858491f12",
+    "subject": "Untrack scripts/release.sh; release tooling is local-only",
+    "url": "https://github.com/virattt/ai-hedge-fund/commit/1524bb17a73a7d94ab0ceb7ccc5f949858491f12",
+    "flagged": true,
+    "reasons": [
+      "risk level HIGH"
+    ],
+    "riskLevel": "HIGH",
+    "provenCount": 0,
+    "verifyCount": 1
+  },
+  {
+    "repo": "virattt/ai-hedge-fund",
+    "sha": "69e5946dcb7b5fbe739b516455d1b5392cb5f7ac",
+    "subject": "Clean up backtester",
+    "url": "https://github.com/virattt/ai-hedge-fund/commit/69e5946dcb7b5fbe739b516455d1b5392cb5f7ac",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "virattt/ai-hedge-fund",
+    "sha": "75b89a1f6b2add5e23b4c9a7a7778aa00d31943f",
+    "subject": "Rename package to aihf",
+    "url": "https://github.com/virattt/ai-hedge-fund/commit/75b89a1f6b2add5e23b4c9a7a7778aa00d31943f",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 3
+  },
+  {
+    "repo": "virattt/ai-hedge-fund",
+    "sha": "eff8a7320fcf0b473b135690fa1a5b0d9b022a83",
+    "subject": "Bump version to 2.2.0",
+    "url": "https://github.com/virattt/ai-hedge-fund/commit/eff8a7320fcf0b473b135690fa1a5b0d9b022a83",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 0
+  },
+  {
+    "repo": "ZhuLinsen/daily_stock_analysis",
+    "sha": "c7ca990ba965abcc5bb0574f7f13598243503fa8",
+    "subject": "fix(tests): make dividend TTM dates date-relative to fix CI (#2204) (#2206)",
+    "url": "https://github.com/ZhuLinsen/daily_stock_analysis/commit/c7ca990ba965abcc5bb0574f7f13598243503fa8",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 3
+  },
+  {
+    "repo": "ZhuLinsen/daily_stock_analysis",
+    "sha": "294210883c0e8c0a096287d3da85e9f666be2d64",
+    "subject": "fix: 分析后无报告生成 (#2201) (#2211)",
+    "url": "https://github.com/ZhuLinsen/daily_stock_analysis/commit/294210883c0e8c0a096287d3da85e9f666be2d64",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "ZhuLinsen/daily_stock_analysis",
+    "sha": "5159bd72e8373d215492dff122acc9d389e219c9",
+    "subject": "fix: stabilize yfinance dividend TTM fixtures (#2214)",
+    "url": "https://github.com/ZhuLinsen/daily_stock_analysis/commit/5159bd72e8373d215492dff122acc9d389e219c9",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "ZhuLinsen/daily_stock_analysis",
+    "sha": "5c964bf23bade6571d09a085fc42199882b77f8f",
+    "subject": "test: stabilize single-stock report date assertions (#2221)",
+    "url": "https://github.com/ZhuLinsen/daily_stock_analysis/commit/5c964bf23bade6571d09a085fc42199882b77f8f",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 0
+  },
+  {
+    "repo": "ZhuLinsen/daily_stock_analysis",
+    "sha": "cfd6b0a5fb9c57685dc2b02ca059fa88d8eff8ec",
+    "subject": "feat(agent): per-category tool timeouts with graceful degradation (#1890) (#2134)",
+    "url": "https://github.com/ZhuLinsen/daily_stock_analysis/commit/cfd6b0a5fb9c57685dc2b02ca059fa88d8eff8ec",
+    "flagged": true,
+    "reasons": [
+      "risk level HIGH"
+    ],
+    "riskLevel": "HIGH",
+    "provenCount": 0,
+    "verifyCount": 4
+  }
+]

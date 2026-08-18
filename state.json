@@ -1,0 +1,102 @@
+{
+  "affaan-m/ECC": {
+    "lastSeenSha": "06c5e118c4d3e6c3b7f9445f973a2194c82de193",
+    "lastCheckedAt": "2026-08-18T09:12:13.445Z"
+  },
+  "bytedance/deer-flow": {
+    "lastSeenSha": "0debff98c1caf4a7d3047e8ef162d85a841b5c6d",
+    "lastCheckedAt": "2026-08-18T09:13:30.842Z"
+  },
+  "calesthio/OpenMontage": {
+    "lastSeenSha": "95e1c3d0ab93482159818560f6a8c8e866b9139f",
+    "lastCheckedAt": "2026-08-18T09:14:29.965Z"
+  },
+  "codeceptjs/CodeceptJS": {
+    "lastSeenSha": "eb1bcdc533b79ae75e21a6ede19afd45f9b06631",
+    "lastCheckedAt": "2026-08-18T09:15:26.192Z"
+  },
+  "denoland/deno": {
+    "lastSeenSha": "1dea13db8200f09ad14f1299fd116ca67ccc470b",
+    "lastCheckedAt": "2026-08-18T09:17:30.334Z"
+  },
+  "erictik/midjourney-api": {
+    "lastSeenSha": "da5aeeee59ee9db8c89068b4036fed47a8d2dfcc",
+    "lastCheckedAt": "2026-08-18T09:18:22.284Z"
+  },
+  "future-agi/future-agi": {
+    "lastSeenSha": "9ad11859b26294714b526cb5f061bbda60a3f7a1",
+    "lastCheckedAt": "2026-08-18T09:20:06.852Z"
+  },
+  "grpc/grpc-go": {
+    "lastSeenSha": "b6f4ff622ced23ea5854d2db26841748a481352b",
+    "lastCheckedAt": "2026-08-18T09:21:27.642Z"
+  },
+  "harry0703/MoneyPrinterTurbo": {
+    "lastSeenSha": "b42e945b497176c823579f9b1895d9323446de23",
+    "lastCheckedAt": "2026-08-18T09:23:11.055Z"
+  },
+  "JuliusBrussee/caveman": {
+    "lastSeenSha": "766dce6b1394ebb56a3090748d5a0240a5aefb36",
+    "lastCheckedAt": "2026-08-18T09:24:09.864Z"
+  },
+  "krillinai/KrillinAI": {
+    "lastSeenSha": "a9f4ec207925d9ae702b2064d11607d1ba3bfef6",
+    "lastCheckedAt": "2026-08-18T09:25:09.611Z"
+  },
+  "Lum1104/Understand-Anything": {
+    "lastSeenSha": "32944829e7a63a9fa9c55d811d7f98a9530c6a6a",
+    "lastCheckedAt": "2026-08-18T09:26:07.257Z"
+  },
+  "lyogavin/airllm": {
+    "lastSeenSha": "8c14c8e6d348c68af34b9716a588724e84259764",
+    "lastCheckedAt": "2026-08-18T09:26:15.443Z"
+  },
+  "magento/magento2": {
+    "lastSeenSha": "011a4d0a5ad75945b2573ad01cd5815b1e4f6c52",
+    "lastCheckedAt": "2026-08-18T09:29:33.755Z"
+  },
+  "medusajs/medusa": {
+    "lastSeenSha": "15a56a2ac9fd8faf28221a33e86fb4e1985199af",
+    "lastCheckedAt": "2026-08-18T09:33:17.600Z"
+  },
+  "n8n-io/n8n": {
+    "lastSeenSha": "1cd8c91a207de28bc212d932c8d4b95eedec0391",
+    "lastCheckedAt": "2026-08-18T09:36:13.398Z"
+  },
+  "NanmiCoder/MediaCrawler": {
+    "lastSeenSha": "d6f7c5bb906b6dac40ddf343ef9e26438a3de092",
+    "lastCheckedAt": "2026-08-18T09:37:17.558Z"
+  },
+  "ogulcancelik/herdr": {
+    "lastSeenSha": "2d24950ad9a02096921bc764e2e3dcd8900c3366",
+    "lastCheckedAt": "2026-08-18T09:38:44.584Z"
+  },
+  "ohmyzsh/ohmyzsh": {
+    "lastSeenSha": "97e11051e2f8053b1d694788d1cb4b0dbb1e2365",
+    "lastCheckedAt": "2026-08-18T09:39:43.390Z"
+  },
+  "OpenCut-app/OpenCut": {
+    "lastSeenSha": "400f097becba5db0fbc305d5a65348cb81c20356",
+    "lastCheckedAt": "2026-08-18T09:40:35.060Z"
+  },
+  "palmier-io/palmier-pro": {
+    "lastSeenSha": "7d0bb7be94c7cc3b64dc0fcfec14b7104bbf0335",
+    "lastCheckedAt": "2026-08-18T09:42:04.280Z"
+  },
+  "penpot/penpot": {
+    "lastSeenSha": "7f2dc66e8662c2d801fb586c0eb67730cb6df705",
+    "lastCheckedAt": "2026-08-18T09:43:48.984Z"
+  },
+  "questdb/questdb": {
+    "lastSeenSha": "e4be1c0230b1418a3609265ca118a2bbc71078ff",
+    "lastCheckedAt": "2026-08-18T09:47:40.484Z"
+  },
+  "virattt/ai-hedge-fund": {
+    "lastSeenSha": "eff8a7320fcf0b473b135690fa1a5b0d9b022a83",
+    "lastCheckedAt": "2026-08-18T09:48:45.707Z"
+  },
+  "ZhuLinsen/daily_stock_analysis": {
+    "lastSeenSha": "cfd6b0a5fb9c57685dc2b02ca059fa88d8eff8ec",
+    "lastCheckedAt": "2026-08-18T09:50:27.486Z"
+  }
+}

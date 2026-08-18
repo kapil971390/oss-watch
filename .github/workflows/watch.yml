@@ -75,3 +75,30 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Read run summary
+        id: summary
+        run: |
+          {
+            echo "flagged=$(node -p "require('./_site/summary.json').flaggedCount")"
+            echo "commits=$(node -p "require('./_site/summary.json').commitCount")"
+            echo "repos=$(node -p "require('./_site/summary.json').repoCount")"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Build email body
+        env:
+          PAGES_URL: ${{ steps.deployment.outputs.page_url }}
+        run: node build-email.js _site/summary.json /tmp/email-body.html
+
+      - name: Email the report
+        if: steps.summary.outputs.flagged != '0'
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          username: ${{ secrets.GMAIL_ADDRESS }}
+          password: ${{ secrets.GMAIL_APP_PASSWORD }}
+          from: OSS Watch <${{ secrets.GMAIL_ADDRESS }}>
+          to: ${{ secrets.GMAIL_ADDRESS }}
+          subject: "OSS Watch: ${{ steps.summary.outputs.flagged }} flagged / ${{ steps.summary.outputs.commits }} commits across ${{ steps.summary.outputs.repos }} repos"
+          html_body: file:///tmp/email-body.html

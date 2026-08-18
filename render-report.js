@@ -307,10 +307,21 @@ function main() {
   const repos = JSON.parse(fs.readFileSync(path.join(ROOT, 'repos.json'), 'utf8'));
   const rawEntries = loadAllRuns();
   const rows = dedupeAndRetriage(rawEntries);
+  const flaggedRows = rows.filter((r) => r.flagged);
 
   fs.mkdirSync(OUT_DIR, { recursive: true });
   fs.writeFileSync(path.join(OUT_DIR, 'index.html'), buildHtml(rows, repos.length));
-  process.stderr.write(`[render-report] wrote ${path.join(OUT_DIR, 'index.html')} (${rows.length} commits, ${rows.filter(r => r.flagged).length} flagged)\n`);
+
+  // Small machine-readable summary — the workflow's email step reads this
+  // rather than re-deriving counts in shell/jq.
+  fs.writeFileSync(path.join(OUT_DIR, 'summary.json'), JSON.stringify({
+    repoCount: repos.length,
+    commitCount: rows.length,
+    flaggedCount: flaggedRows.length,
+    flagged: flaggedRows.map((r) => ({ repo: r.repo, sha: r.sha, subject: r.subject, url: r.url, reasons: r.reasons })),
+  }, null, 2));
+
+  process.stderr.write(`[render-report] wrote ${path.join(OUT_DIR, 'index.html')} (${rows.length} commits, ${flaggedRows.length} flagged)\n`);
 }
 
 main();

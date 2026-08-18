@@ -46,7 +46,10 @@ const ADD_REPO = (args.find((a) => a.startsWith('--add-repo=')) || '').split('='
 // commits that were already fine.
 const INITIAL_BACKLOG = 5;
 
-const SECURITY_KEYWORDS = /auth|security|credential|token|password|secret|crypto|encrypt|permission|scope|privilege|sanitiz|inject|traversal|xss|csrf|ssrf/i;
+// Word-boundaried on purpose — the un-bounded version matched "auth" inside
+// "author" and flagged plain docs commits. "scope" dropped entirely: too
+// common a word (variable scope, project scope) to carry any signal here.
+const SECURITY_KEYWORDS = /\b(auth|security|credential|token|password|secret|crypto|encrypt|permission|privilege|sanitiz\w*|injection|traversal|xss|csrf|ssrf|vulnerab\w*)\b/i;
 
 function log(msg) {
   process.stderr.write(`[watch] ${msg}\n`);
@@ -156,20 +159,35 @@ function runVeriqaAnalyze(dir, oldSha, newSha) {
   }
 }
 
-function triage(report, commitMessage, changedFileNames) {
+function triage(report, commitMessage) {
   if (!report) return { flagged: false, reasons: ['no report produced'] };
   const reasons = [];
   const whereItCanBreak = report.qaGuidance?.whereItCanBreak || [];
   const proven = whereItCanBreak.filter((f) => typeof f === 'string' && /^\[PROVEN\]/i.test(f.trim()));
+  const verifyCount = whereItCanBreak.length - proven.length;
   if (proven.length) reasons.push(`${proven.length} [PROVEN] finding(s)`);
 
   const riskLevel = (report.riskSummary?.level || report.intelligence?.overallRisk || '').toUpperCase();
-  if (riskLevel === 'HIGH' || riskLevel === 'CRITICAL') reasons.push(`risk level ${riskLevel}`);
+  const securityHit = SECURITY_KEYWORDS.test(commitMessage || '');
 
-  if (SECURITY_KEYWORDS.test(commitMessage || '')) reasons.push('security/auth-sensitive commit message');
-  if ((changedFileNames || []).some((f) => SECURITY_KEYWORDS.test(f))) reasons.push('security/auth-sensitive file path');
+  // VeriQA rates a lot of diffs HIGH on its own — that alone was flagging
+  // nearly everything (mechanical release/version-pin commits included) and
+  // defeated the point of triage. Require it to converge with a second
+  // signal before treating it as worth a manual look.
+  if (riskLevel === 'CRITICAL') {
+    reasons.push('risk level CRITICAL');
+  } else if (riskLevel === 'HIGH' && (securityHit || verifyCount >= 3)) {
+    reasons.push(securityHit
+      ? 'risk level HIGH + security-sensitive commit message'
+      : `risk level HIGH + ${verifyCount} VERIFY findings`);
+  } else if (securityHit) {
+    // Explicitly security-flavored commit message is worth a glance even at
+    // lower risk — file-path matching was dropped, it false-positived on
+    // substrings (e.g. "auth" inside "author.tsx") too easily.
+    reasons.push('security/auth-sensitive commit message');
+  }
 
-  return { flagged: reasons.length > 0, reasons, riskLevel, provenCount: proven.length, verifyCount: whereItCanBreak.length - proven.length };
+  return { flagged: reasons.length > 0, reasons, riskLevel, provenCount: proven.length, verifyCount };
 }
 
 function main() {
@@ -220,11 +238,10 @@ function main() {
     for (const sha of toProcess) {
       const parentSha = sh(`git rev-parse ${sha}~1`, dir).trim();
       const subject = sh(`git log -1 --format=%s ${sha}`, dir).trim();
-      const changedFileNames = sh(`git show --name-only --format= ${sha}`, dir).split('\n').filter(Boolean);
 
       log(`${key}: analyzing ${sha.slice(0, 8)} — ${subject.slice(0, 70)}`);
       const report = runVeriqaAnalyze(dir, parentSha, sha);
-      const verdict = triage(report, subject, changedFileNames);
+      const verdict = triage(report, subject);
 
       const entry = { repo: key, sha, subject, url: `https://github.com/${key}/commit/${sha}`, ...verdict };
       runLog.push(entry);

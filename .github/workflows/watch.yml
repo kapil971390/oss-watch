@@ -9,11 +9,20 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   watch:
     runs-on: ubuntu-latest
     timeout-minutes: 90
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout oss-watch
         uses: actions/checkout@v4
@@ -52,6 +61,17 @@ jobs:
       - name: Commit results
         run: |
           git add state.json queue.md reports/
-          git diff --staged --quiet && echo "Nothing to commit" && exit 0
-          git commit -m "chore: watch run $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git diff --staged --quiet || git commit -m "chore: watch run $(date -u +%Y-%m-%dT%H:%M:%SZ)"
           git push
+
+      - name: Build dashboard
+        run: node render-report.js _site
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

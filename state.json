@@ -16,24 +16,24 @@
     "lastCheckedAt": "2026-08-18T09:15:26.192Z"
   },
   "denoland/deno": {
-    "lastSeenSha": "1dea13db8200f09ad14f1299fd116ca67ccc470b",
-    "lastCheckedAt": "2026-08-18T09:17:30.334Z"
+    "lastSeenSha": "72eb21fb788c45a042b746e5cd0bb94f1eec9c25",
+    "lastCheckedAt": "2026-08-18T12:41:31.768Z"
   },
   "erictik/midjourney-api": {
     "lastSeenSha": "da5aeeee59ee9db8c89068b4036fed47a8d2dfcc",
     "lastCheckedAt": "2026-08-18T09:18:22.284Z"
   },
   "future-agi/future-agi": {
-    "lastSeenSha": "9ad11859b26294714b526cb5f061bbda60a3f7a1",
-    "lastCheckedAt": "2026-08-18T09:20:06.852Z"
+    "lastSeenSha": "5578381a27b9761000fbff8053756ef157632171",
+    "lastCheckedAt": "2026-08-18T12:42:53.274Z"
   },
   "grpc/grpc-go": {
     "lastSeenSha": "b6f4ff622ced23ea5854d2db26841748a481352b",
     "lastCheckedAt": "2026-08-18T09:21:27.642Z"
   },
   "harry0703/MoneyPrinterTurbo": {
-    "lastSeenSha": "b42e945b497176c823579f9b1895d9323446de23",
-    "lastCheckedAt": "2026-08-18T09:23:11.055Z"
+    "lastSeenSha": "1339ee87c6336df2a599118f7d9e6f5fc09c2064",
+    "lastCheckedAt": "2026-08-18T12:43:37.634Z"
   },
   "JuliusBrussee/caveman": {
     "lastSeenSha": "766dce6b1394ebb56a3090748d5a0240a5aefb36",
@@ -56,12 +56,12 @@
     "lastCheckedAt": "2026-08-18T09:29:33.755Z"
   },
   "medusajs/medusa": {
-    "lastSeenSha": "15a56a2ac9fd8faf28221a33e86fb4e1985199af",
-    "lastCheckedAt": "2026-08-18T09:33:17.600Z"
+    "lastSeenSha": "693310310610cf439fabb73230187028f2755696",
+    "lastCheckedAt": "2026-08-18T12:47:08.114Z"
   },
   "n8n-io/n8n": {
-    "lastSeenSha": "1cd8c91a207de28bc212d932c8d4b95eedec0391",
-    "lastCheckedAt": "2026-08-18T09:36:13.398Z"
+    "lastSeenSha": "a5ac2aa10d3aab99a23cf02a0ac137250367bc80",
+    "lastCheckedAt": "2026-08-18T12:49:17.511Z"
   },
   "NanmiCoder/MediaCrawler": {
     "lastSeenSha": "d6f7c5bb906b6dac40ddf343ef9e26438a3de092",
@@ -84,12 +84,12 @@
     "lastCheckedAt": "2026-08-18T09:42:04.280Z"
   },
   "penpot/penpot": {
-    "lastSeenSha": "7f2dc66e8662c2d801fb586c0eb67730cb6df705",
-    "lastCheckedAt": "2026-08-18T09:43:48.984Z"
+    "lastSeenSha": "c72bb331effef9a5c069b64334a82fdc58a2428d",
+    "lastCheckedAt": "2026-08-18T12:50:35.154Z"
   },
   "questdb/questdb": {
-    "lastSeenSha": "e4be1c0230b1418a3609265ca118a2bbc71078ff",
-    "lastCheckedAt": "2026-08-18T09:47:40.484Z"
+    "lastSeenSha": "a99a54a1d5e2145198345d799152865004ba7400",
+    "lastCheckedAt": "2026-08-18T12:52:17.405Z"
   },
   "virattt/ai-hedge-fund": {
     "lastSeenSha": "eff8a7320fcf0b473b135690fa1a5b0d9b022a83",

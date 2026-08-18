@@ -1,0 +1,285 @@
+[
+  {
+    "repo": "denoland/deno",
+    "sha": "f01fe6f9b053f352933795d573920e0c94161a88",
+    "subject": "fix(npm): flatten single-resolution peers when building package ids (#36608)",
+    "url": "https://github.com/denoland/deno/commit/f01fe6f9b053f352933795d573920e0c94161a88",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 3
+  },
+  {
+    "repo": "denoland/deno",
+    "sha": "d63aa221e6e36647eead0a2a8179a88a61b32c47",
+    "subject": "ci: time out the sysroot setup step after 10 minutes (#36617)",
+    "url": "https://github.com/denoland/deno/commit/d63aa221e6e36647eead0a2a8179a88a61b32c47",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "denoland/deno",
+    "sha": "72eb21fb788c45a042b746e5cd0bb94f1eec9c25",
+    "subject": "test: don't assert a remote file's byte count in 017_import_redirect_info (#36621)",
+    "url": "https://github.com/denoland/deno/commit/72eb21fb788c45a042b746e5cd0bb94f1eec9c25",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "LOW",
+    "provenCount": 0,
+    "verifyCount": 0
+  },
+  {
+    "repo": "future-agi/future-agi",
+    "sha": "357cad53c6f2baca3be34d65d30b100b58edde95",
+    "subject": "fix(gateway): enforce MCP tool schema validation on empty arguments (#1242) * Remove len(params.Arguments) > 0 bypass to ensure JSON schema validation runs even when tools are called with an empty arguments map. * Adds TestSchemaValidation_EmptyArgumentsStillChecksRequired regression test to ensure empty argument maps trigger missing field errors. * Aligns with Model Context Protocol required field strictness.",
+    "url": "https://github.com/future-agi/future-agi/commit/357cad53c6f2baca3be34d65d30b100b58edde95",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "future-agi/future-agi",
+    "sha": "900832f292727aba11ded8babb97dd18bffa28ea",
+    "subject": "fix(gateway): support large MCP stdio messages",
+    "url": "https://github.com/future-agi/future-agi/commit/900832f292727aba11ded8babb97dd18bffa28ea",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "future-agi/future-agi",
+    "sha": "512042871ed281176b16e96c50d54baa33db9fd0",
+    "subject": "fix: correct docker-compose ENV_TYPE and INTEGRATION_ENCRYPTION_KEY defaults",
+    "url": "https://github.com/future-agi/future-agi/commit/512042871ed281176b16e96c50d54baa33db9fd0",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 1
+  },
+  {
+    "repo": "future-agi/future-agi",
+    "sha": "7753235b945286c5b527d531394270aacb9946df",
+    "subject": "fix(tracer): materialize eval_score from structured eval outputs",
+    "url": "https://github.com/future-agi/future-agi/commit/7753235b945286c5b527d531394270aacb9946df",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "future-agi/future-agi",
+    "sha": "5578381a27b9761000fbff8053756ef157632171",
+    "subject": "refactor(tracer): trim eval_score backfill comments and self-heal its index",
+    "url": "https://github.com/future-agi/future-agi/commit/5578381a27b9761000fbff8053756ef157632171",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "harry0703/MoneyPrinterTurbo",
+    "sha": "9377b24837d8d6a29477123989986dec4afb71a5",
+    "subject": "feat(video): add Shengsuan AI video generation",
+    "url": "https://github.com/harry0703/MoneyPrinterTurbo/commit/9377b24837d8d6a29477123989986dec4afb71a5",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "harry0703/MoneyPrinterTurbo",
+    "sha": "1339ee87c6336df2a599118f7d9e6f5fc09c2064",
+    "subject": "fix(config): handle repeated UTF-8 BOM",
+    "url": "https://github.com/harry0703/MoneyPrinterTurbo/commit/1339ee87c6336df2a599118f7d9e6f5fc09c2064",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 3
+  },
+  {
+    "repo": "medusajs/medusa",
+    "sha": "4e5a02bdcb47a410ac427a23f3d2a50440ab5379",
+    "subject": "fix: Simplify how redis cache data is stored (#16476)",
+    "url": "https://github.com/medusajs/medusa/commit/4e5a02bdcb47a410ac427a23f3d2a50440ab5379",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "medusajs/medusa",
+    "sha": "7479b07071e51f4fc6a7ddafe2c778e85c6eb61d",
+    "subject": "fix(medusa): block field expansion pivots on the store order routes (#16480)",
+    "url": "https://github.com/medusajs/medusa/commit/7479b07071e51f4fc6a7ddafe2c778e85c6eb61d",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "medusajs/medusa",
+    "sha": "693310310610cf439fabb73230187028f2755696",
+    "subject": "feat: Implement Medusa Cloud as a search provider (#16457)",
+    "url": "https://github.com/medusajs/medusa/commit/693310310610cf439fabb73230187028f2755696",
+    "flagged": true,
+    "reasons": [
+      "risk level HIGH + 3 VERIFY findings"
+    ],
+    "riskLevel": "HIGH",
+    "provenCount": 0,
+    "verifyCount": 3
+  },
+  {
+    "repo": "n8n-io/n8n",
+    "sha": "8f82586bba83c4c87aa25a5833cd47ebc86bdea1",
+    "subject": ":rocket: Release 2.36.0 (#36483)",
+    "url": "https://github.com/n8n-io/n8n/commit/8f82586bba83c4c87aa25a5833cd47ebc86bdea1",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 0
+  },
+  {
+    "repo": "n8n-io/n8n",
+    "sha": "87e8b9c58f5e35e1bf4c665ab4429b9f9fee85b1",
+    "subject": "fix(ai-builder): Fix for autosave and publish events issues (#36241)",
+    "url": "https://github.com/n8n-io/n8n/commit/87e8b9c58f5e35e1bf4c665ab4429b9f9fee85b1",
+    "flagged": true,
+    "reasons": [
+      "risk level HIGH + 4 VERIFY findings"
+    ],
+    "riskLevel": "HIGH",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "n8n-io/n8n",
+    "sha": "44a5deb577ee2f409aa7432b7de7d2bcf22191f1",
+    "subject": "Merge tag 'n8n@2.36.0'",
+    "url": "https://github.com/n8n-io/n8n/commit/44a5deb577ee2f409aa7432b7de7d2bcf22191f1",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 0
+  },
+  {
+    "repo": "n8n-io/n8n",
+    "sha": "43220e18a25d099c79fbf3a38e44af42b0f650eb",
+    "subject": "fix(editor): Open node details links in a new tab in canvas-only mode (#36446)",
+    "url": "https://github.com/n8n-io/n8n/commit/43220e18a25d099c79fbf3a38e44af42b0f650eb",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "n8n-io/n8n",
+    "sha": "a5ac2aa10d3aab99a23cf02a0ac137250367bc80",
+    "subject": "feat(editor): Warn about self-escalation via Manage project roles scope (#36458)",
+    "url": "https://github.com/n8n-io/n8n/commit/a5ac2aa10d3aab99a23cf02a0ac137250367bc80",
+    "flagged": true,
+    "reasons": [
+      "risk level HIGH + 4 VERIFY findings"
+    ],
+    "riskLevel": "HIGH",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "penpot/penpot",
+    "sha": "509f5395cb68438b46c21dd214d0c316239692ef",
+    "subject": ":paperclip: Update changelog",
+    "url": "https://github.com/penpot/penpot/commit/509f5395cb68438b46c21dd214d0c316239692ef",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "LOW",
+    "provenCount": 0,
+    "verifyCount": 0
+  },
+  {
+    "repo": "penpot/penpot",
+    "sha": "8acb92b782916c5563da0b9c22c8e5e75cf46cff",
+    "subject": ":bug: Normalize fractional rate-limit reset durations (#11254)",
+    "url": "https://github.com/penpot/penpot/commit/8acb92b782916c5563da0b9c22c8e5e75cf46cff",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "penpot/penpot",
+    "sha": "7ac61e059714a7bd7caaad48ce7af0fc7160de03",
+    "subject": ":bug: Fix typo in auto-file-snapshot timeout setting (#10909)",
+    "url": "https://github.com/penpot/penpot/commit/7ac61e059714a7bd7caaad48ce7af0fc7160de03",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "LOW",
+    "provenCount": 0,
+    "verifyCount": 1
+  },
+  {
+    "repo": "penpot/penpot",
+    "sha": "9311737f66585722ead7abcfd0f046fce63f9791",
+    "subject": ":bug: Do not cache the environment generated config.js (#11146)",
+    "url": "https://github.com/penpot/penpot/commit/9311737f66585722ead7abcfd0f046fce63f9791",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 1
+  },
+  {
+    "repo": "penpot/penpot",
+    "sha": "c72bb331effef9a5c069b64334a82fdc58a2428d",
+    "subject": ":bug: Fix nitrate advanced permissions error (#11255)",
+    "url": "https://github.com/penpot/penpot/commit/c72bb331effef9a5c069b64334a82fdc58a2428d",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "questdb/questdb",
+    "sha": "99d8cd5a116018013665d1e8656e559d2656128f",
+    "subject": "fix(core): fix incorrect query results and premature memory-limit errors in large queries (#7434)",
+    "url": "https://github.com/questdb/questdb/commit/99d8cd5a116018013665d1e8656e559d2656128f",
+    "flagged": true,
+    "reasons": [
+      "risk level HIGH + 3 VERIFY findings"
+    ],
+    "riskLevel": "HIGH",
+    "provenCount": 0,
+    "verifyCount": 3
+  },
+  {
+    "repo": "questdb/questdb",
+    "sha": "a99a54a1d5e2145198345d799152865004ba7400",
+    "subject": "chore(build): stop requiring alphabetical member ordering (#7520)",
+    "url": "https://github.com/questdb/questdb/commit/a99a54a1d5e2145198345d799152865004ba7400",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "LOW",
+    "provenCount": 0,
+    "verifyCount": 0
+  }
+]

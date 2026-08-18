@@ -1,0 +1,215 @@
+[
+  {
+    "repo": "bytedance/deer-flow",
+    "sha": "62ffcff45b954606fe77ec7ccb7395db11ce5f3e",
+    "subject": "fix(docker): keep runtime data out of the build context (#4853)",
+    "url": "https://github.com/bytedance/deer-flow/commit/62ffcff45b954606fe77ec7ccb7395db11ce5f3e",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "denoland/deno",
+    "sha": "6e0621c57435fd2b59c2821ac1db4f878bc2d8e9",
+    "subject": "ci: stop node_compat shard 0 starving its runner (#36620)",
+    "url": "https://github.com/denoland/deno/commit/6e0621c57435fd2b59c2821ac1db4f878bc2d8e9",
+    "flagged": true,
+    "reasons": [
+      "risk level HIGH + 3 VERIFY findings"
+    ],
+    "riskLevel": "HIGH",
+    "provenCount": 0,
+    "verifyCount": 3
+  },
+  {
+    "repo": "future-agi/future-agi",
+    "sha": "357cad53c6f2baca3be34d65d30b100b58edde95",
+    "subject": "fix(gateway): enforce MCP tool schema validation on empty arguments (#1242) * Remove len(params.Arguments) > 0 bypass to ensure JSON schema validation runs even when tools are called with an empty arguments map. * Adds TestSchemaValidation_EmptyArgumentsStillChecksRequired regression test to ensure empty argument maps trigger missing field errors. * Aligns with Model Context Protocol required field strictness.",
+    "url": "https://github.com/future-agi/future-agi/commit/357cad53c6f2baca3be34d65d30b100b58edde95",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "future-agi/future-agi",
+    "sha": "900832f292727aba11ded8babb97dd18bffa28ea",
+    "subject": "fix(gateway): support large MCP stdio messages",
+    "url": "https://github.com/future-agi/future-agi/commit/900832f292727aba11ded8babb97dd18bffa28ea",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "future-agi/future-agi",
+    "sha": "b6a5258251537ff083fc3ef9a9679f2485728e13",
+    "subject": "Merge pull request #1892 from future-agi/fix/eval-tasks-arrival-window",
+    "url": "https://github.com/future-agi/future-agi/commit/b6a5258251537ff083fc3ef9a9679f2485728e13",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "future-agi/future-agi",
+    "sha": "ced8ad140fd0c9d5e2d8d828cf18ab49a2ef1872",
+    "subject": "Merge pull request #1905 from future-agi/dev",
+    "url": "https://github.com/future-agi/future-agi/commit/ced8ad140fd0c9d5e2d8d828cf18ab49a2ef1872",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "HIGH",
+    "provenCount": 0,
+    "verifyCount": 0
+  },
+  {
+    "repo": "future-agi/future-agi",
+    "sha": "f590c4edb134be768019db40eae91bc32ab4eec7",
+    "subject": "chore(main): release 1.24.1",
+    "url": "https://github.com/future-agi/future-agi/commit/f590c4edb134be768019db40eae91bc32ab4eec7",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 2
+  },
+  {
+    "repo": "medusajs/medusa",
+    "sha": "b33f14a334769e9265b2c7ff1b120db183bc1e07",
+    "subject": "fix(dashboard): reload on preload error (#16455)",
+    "url": "https://github.com/medusajs/medusa/commit/b33f14a334769e9265b2c7ff1b120db183bc1e07",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "n8n-io/n8n",
+    "sha": "fa460a4313cb56c16f25b22259d0c6d84d4f752e",
+    "subject": "fix(Extract From File Node): Parse date-only RRULE UNTIL values (#29522)",
+    "url": "https://github.com/n8n-io/n8n/commit/fa460a4313cb56c16f25b22259d0c6d84d4f752e",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "n8n-io/n8n",
+    "sha": "39be106f6812e56b2ee224799b2e670a756a9439",
+    "subject": "fix(API): Return a request schema for decorator routes in /discover (#36211)",
+    "url": "https://github.com/n8n-io/n8n/commit/39be106f6812e56b2ee224799b2e670a756a9439",
+    "flagged": true,
+    "reasons": [
+      "risk level HIGH + 3 VERIFY findings"
+    ],
+    "riskLevel": "HIGH",
+    "provenCount": 0,
+    "verifyCount": 3
+  },
+  {
+    "repo": "n8n-io/n8n",
+    "sha": "6155d8e8823f700dbb40d738b700a07349b0d089",
+    "subject": "build: Re-pin mailsplit license election to 5.4.15 (no-changelog) (#36491)",
+    "url": "https://github.com/n8n-io/n8n/commit/6155d8e8823f700dbb40d738b700a07349b0d089",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 1
+  },
+  {
+    "repo": "n8n-io/n8n",
+    "sha": "207c29f8e3e720435f75f270b56217e585547445",
+    "subject": "fix(OpenAI Node): Filter non-chat models out of the chat model dropdown (#35785)",
+    "url": "https://github.com/n8n-io/n8n/commit/207c29f8e3e720435f75f270b56217e585547445",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 1
+  },
+  {
+    "repo": "n8n-io/n8n",
+    "sha": "12cae8cbd9d0b31fe6de8022c0b6df951d005485",
+    "subject": "feat(ai-builder): Show tool hard and soft failures in agent session trace - timeline (#36405)",
+    "url": "https://github.com/n8n-io/n8n/commit/12cae8cbd9d0b31fe6de8022c0b6df951d005485",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "penpot/penpot",
+    "sha": "0fed63eeb33c18a0cc824ae1d956947ec303595a",
+    "subject": ":bug: Fix text replacement on selection and text offsets (#10983)",
+    "url": "https://github.com/penpot/penpot/commit/0fed63eeb33c18a0cc824ae1d956947ec303595a",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "penpot/penpot",
+    "sha": "c6c8a38544b2592e34db43ad6790f1b8d51bb82f",
+    "subject": ":bug: Fix not being able to add multiple fills to text spans (v3) (#10988)",
+    "url": "https://github.com/penpot/penpot/commit/c6c8a38544b2592e34db43ad6790f1b8d51bb82f",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "penpot/penpot",
+    "sha": "6e843faba3a4a83d3f9b2409dc42df8d64c9915e",
+    "subject": "Merge remote-tracking branch 'origin/staging' into develop",
+    "url": "https://github.com/penpot/penpot/commit/6e843faba3a4a83d3f9b2409dc42df8d64c9915e",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "penpot/penpot",
+    "sha": "0811b1cda6a8d7960452dff0bab1110e4b49386c",
+    "subject": ":wrench: Generate the Docker image for the admin console by creating a tag",
+    "url": "https://github.com/penpot/penpot/commit/0811b1cda6a8d7960452dff0bab1110e4b49386c",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "LOW",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "penpot/penpot",
+    "sha": "ca29f734c71a6af7d9b4724dd32e7466330de825",
+    "subject": "Merge remote-tracking branch 'origin/staging' into develop",
+    "url": "https://github.com/penpot/penpot/commit/ca29f734c71a6af7d9b4724dd32e7466330de825",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "questdb/questdb",
+    "sha": "0f14798f3299da28f6975925a0565e273708bf2b",
+    "subject": "perf(sql): speed up window queries and fix wrong results in windows and live views (#7515)",
+    "url": "https://github.com/questdb/questdb/commit/0f14798f3299da28f6975925a0565e273708bf2b",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 0
+  }
+]

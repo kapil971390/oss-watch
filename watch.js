@@ -273,4 +273,8 @@ function main() {
   log(`Done. ${runLog.length} commit(s) analyzed, ${flagged.length} flagged. See oss-watch/queue.md`);
 }
 
-main();
+module.exports = { triage };
+
+if (require.main === module) {
+  main();
+}

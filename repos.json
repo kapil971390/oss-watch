@@ -10,6 +10,11 @@
     "url": "https://github.com/bytedance/deer-flow.git"
   },
   {
+    "owner": "calesthio",
+    "repo": "OpenMontage",
+    "url": "https://github.com/calesthio/OpenMontage.git"
+  },
+  {
     "owner": "codeceptjs",
     "repo": "CodeceptJS",
     "url": "https://github.com/codeceptjs/CodeceptJS.git"
@@ -25,6 +30,11 @@
     "url": "https://github.com/erictik/midjourney-api.git"
   },
   {
+    "owner": "future-agi",
+    "repo": "future-agi",
+    "url": "https://github.com/future-agi/future-agi.git"
+  },
+  {
     "owner": "grpc",
     "repo": "grpc-go",
     "url": "https://github.com/grpc/grpc-go.git"
@@ -35,14 +45,44 @@
     "url": "https://github.com/harry0703/MoneyPrinterTurbo.git"
   },
   {
+    "owner": "JuliusBrussee",
+    "repo": "caveman",
+    "url": "https://github.com/JuliusBrussee/caveman.git"
+  },
+  {
     "owner": "krillinai",
     "repo": "KrillinAI",
     "url": "https://github.com/krillinai/KrillinAI.git"
   },
   {
+    "owner": "Lum1104",
+    "repo": "Understand-Anything",
+    "url": "https://github.com/Lum1104/Understand-Anything.git"
+  },
+  {
+    "owner": "lyogavin",
+    "repo": "airllm",
+    "url": "https://github.com/lyogavin/airllm.git"
+  },
+  {
+    "owner": "magento",
+    "repo": "magento2",
+    "url": "https://github.com/magento/magento2.git"
+  },
+  {
+    "owner": "medusajs",
+    "repo": "medusa",
+    "url": "https://github.com/medusajs/medusa.git"
+  },
+  {
     "owner": "n8n-io",
     "repo": "n8n",
     "url": "https://github.com/n8n-io/n8n.git"
+  },
+  {
+    "owner": "NanmiCoder",
+    "repo": "MediaCrawler",
+    "url": "https://github.com/NanmiCoder/MediaCrawler.git"
   },
   {
     "owner": "ogulcancelik",
@@ -55,6 +95,11 @@
     "url": "https://github.com/ohmyzsh/ohmyzsh.git"
   },
   {
+    "owner": "OpenCut-app",
+    "repo": "OpenCut",
+    "url": "https://github.com/OpenCut-app/OpenCut.git"
+  },
+  {
     "owner": "palmier-io",
     "repo": "palmier-pro",
     "url": "https://github.com/palmier-io/palmier-pro.git"
@@ -63,5 +108,20 @@
     "owner": "penpot",
     "repo": "penpot",
     "url": "https://github.com/penpot/penpot.git"
+  },
+  {
+    "owner": "questdb",
+    "repo": "questdb",
+    "url": "https://github.com/questdb/questdb.git"
+  },
+  {
+    "owner": "virattt",
+    "repo": "ai-hedge-fund",
+    "url": "https://github.com/virattt/ai-hedge-fund.git"
+  },
+  {
+    "owner": "ZhuLinsen",
+    "repo": "daily_stock_analysis",
+    "url": "https://github.com/ZhuLinsen/daily_stock_analysis.git"
   }
 ]

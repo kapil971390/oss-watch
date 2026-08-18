@@ -1,0 +1,57 @@
+name: OSS Watch
+
+on:
+  schedule:
+    # Twice daily. Times are UTC — 03:00 and 15:00 UTC ≈ 08:30 and 20:30 IST.
+    - cron: '0 3 * * *'
+    - cron: '0 15 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Checkout oss-watch
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Clone VeriQA_Dev (private) for the veriqa CLI
+        env:
+          VERIQA_DEV_PAT: ${{ secrets.VERIQA_DEV_PAT }}
+        run: |
+          git clone --quiet --depth 1 "https://${VERIQA_DEV_PAT}@github.com/kapil971390/VeriQA_Dev.git" /tmp/veriqa-src
+          cd /tmp/veriqa-src
+          npm ci --omit=dev --silent || npm install --omit=dev --silent
+
+      - name: Write VeriQA .env for AI-enhanced analysis
+        run: |
+          {
+            echo "ANTHROPIC_API_KEY=${{ secrets.ANTHROPIC_API_KEY }}"
+            echo "OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}"
+            echo "VERIQA_USE_OPENAI=${{ secrets.VERIQA_USE_OPENAI }}"
+          } > /tmp/veriqa-src/.env
+
+      - name: Configure git identity for commit-back
+        run: |
+          git config user.name "oss-watch-bot"
+          git config user.email "oss-watch-bot@users.noreply.github.com"
+
+      - name: Run watcher
+        env:
+          VERIQA_CLI: "node /tmp/veriqa-src/src/cli.js"
+        run: node watch.js
+
+      - name: Commit results
+        run: |
+          git add state.json queue.md reports/
+          git diff --staged --quiet && echo "Nothing to commit" && exit 0
+          git commit -m "chore: watch run $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push

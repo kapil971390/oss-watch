@@ -1,0 +1,67 @@
+[
+  {
+    "owner": "affaan-m",
+    "repo": "ECC",
+    "url": "https://github.com/affaan-m/ECC.git"
+  },
+  {
+    "owner": "bytedance",
+    "repo": "deer-flow",
+    "url": "https://github.com/bytedance/deer-flow.git"
+  },
+  {
+    "owner": "codeceptjs",
+    "repo": "CodeceptJS",
+    "url": "https://github.com/codeceptjs/CodeceptJS.git"
+  },
+  {
+    "owner": "denoland",
+    "repo": "deno",
+    "url": "https://github.com/denoland/deno.git"
+  },
+  {
+    "owner": "erictik",
+    "repo": "midjourney-api",
+    "url": "https://github.com/erictik/midjourney-api.git"
+  },
+  {
+    "owner": "grpc",
+    "repo": "grpc-go",
+    "url": "https://github.com/grpc/grpc-go.git"
+  },
+  {
+    "owner": "harry0703",
+    "repo": "MoneyPrinterTurbo",
+    "url": "https://github.com/harry0703/MoneyPrinterTurbo.git"
+  },
+  {
+    "owner": "krillinai",
+    "repo": "KrillinAI",
+    "url": "https://github.com/krillinai/KrillinAI.git"
+  },
+  {
+    "owner": "n8n-io",
+    "repo": "n8n",
+    "url": "https://github.com/n8n-io/n8n.git"
+  },
+  {
+    "owner": "ogulcancelik",
+    "repo": "herdr",
+    "url": "https://github.com/ogulcancelik/herdr.git"
+  },
+  {
+    "owner": "ohmyzsh",
+    "repo": "ohmyzsh",
+    "url": "https://github.com/ohmyzsh/ohmyzsh.git"
+  },
+  {
+    "owner": "palmier-io",
+    "repo": "palmier-pro",
+    "url": "https://github.com/palmier-io/palmier-pro.git"
+  },
+  {
+    "owner": "penpot",
+    "repo": "penpot",
+    "url": "https://github.com/penpot/penpot.git"
+  }
+]

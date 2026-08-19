@@ -1,0 +1,561 @@
+[
+  {
+    "repo": "calesthio/OpenMontage",
+    "sha": "26a03b87ed5f8f5f40ae6049c8ccc2fa7eb46c19",
+    "subject": "docs: add seedance 2.5 prompt contract and technique reference",
+    "url": "https://github.com/calesthio/OpenMontage/commit/26a03b87ed5f8f5f40ae6049c8ccc2fa7eb46c19",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "LOW",
+    "provenCount": 0,
+    "verifyCount": 3
+  },
+  {
+    "repo": "calesthio/OpenMontage",
+    "sha": "1bab711820828c2e5fc1f87ed274a32587cb048f",
+    "subject": "Merge pull request #515 from guillergs-ai/add-seedance-2-5-skill",
+    "url": "https://github.com/calesthio/OpenMontage/commit/1bab711820828c2e5fc1f87ed274a32587cb048f",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "LOW",
+    "provenCount": 0,
+    "verifyCount": 3
+  },
+  {
+    "repo": "denoland/deno",
+    "sha": "4de6697dcb95965f5e834494f71efa806fb7f3e7",
+    "subject": "fix(npm): resolve bare npm specifier when latest is too new for min dependency age (#36619)",
+    "url": "https://github.com/denoland/deno/commit/4de6697dcb95965f5e834494f71efa806fb7f3e7",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "denoland/deno",
+    "sha": "dab460d6fcc6b29f2d2077fe6f991397de991522",
+    "subject": "fix(http): truncate streaming responses to content length (#36496)",
+    "url": "https://github.com/denoland/deno/commit/dab460d6fcc6b29f2d2077fe6f991397de991522",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "future-agi/future-agi",
+    "sha": "b5866361aa0b9fc5123d8be6d1738c44c03afda3",
+    "subject": "fix(tracer): migrate retell list-calls to v3 api",
+    "url": "https://github.com/future-agi/future-agi/commit/b5866361aa0b9fc5123d8be6d1738c44c03afda3",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "future-agi/future-agi",
+    "sha": "357cad53c6f2baca3be34d65d30b100b58edde95",
+    "subject": "fix(gateway): enforce MCP tool schema validation on empty arguments (#1242) * Remove len(params.Arguments) > 0 bypass to ensure JSON schema validation runs even when tools are called with an empty arguments map. * Adds TestSchemaValidation_EmptyArgumentsStillChecksRequired regression test to ensure empty argument maps trigger missing field errors. * Aligns with Model Context Protocol required field strictness.",
+    "url": "https://github.com/future-agi/future-agi/commit/357cad53c6f2baca3be34d65d30b100b58edde95",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "future-agi/future-agi",
+    "sha": "c9effec2424bc795178fa3d2f8ae266aa4557064",
+    "subject": "feat: add canonical runtime contracts and capability service (Phase 1)",
+    "url": "https://github.com/future-agi/future-agi/commit/c9effec2424bc795178fa3d2f8ae266aa4557064",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "future-agi/future-agi",
+    "sha": "5f44aff4f6e21725b83e6ecae090cf261928818c",
+    "subject": "feat: consolidate enforcement gaps (Phase 3, partial)",
+    "url": "https://github.com/future-agi/future-agi/commit/5f44aff4f6e21725b83e6ecae090cf261928818c",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "future-agi/future-agi",
+    "sha": "87245f855ea06004f91f81c03e2c2a33cb7d11ee",
+    "subject": "feat: wire check_ee_feature delegation to capability service (Phase 3)",
+    "url": "https://github.com/future-agi/future-agi/commit/87245f855ea06004f91f81c03e2c2a33cb7d11ee",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 3
+  },
+  {
+    "repo": "grpc/grpc-go",
+    "sha": "0ef3b0ccbe9739c69b57fe994dbf0e3adbc0f55c",
+    "subject": "client: don't reuse a pick's authority override on a later attempt (#9277)",
+    "url": "https://github.com/grpc/grpc-go/commit/0ef3b0ccbe9739c69b57fe994dbf0e3adbc0f55c",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "HIGH",
+    "provenCount": 0,
+    "verifyCount": 2
+  },
+  {
+    "repo": "grpc/grpc-go",
+    "sha": "c92e985770b7194d4a4f433c84d42c6c195e8ce5",
+    "subject": "server: remove code to suppress duplicate writing of status (#9322)",
+    "url": "https://github.com/grpc/grpc-go/commit/c92e985770b7194d4a4f433c84d42c6c195e8ce5",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 3
+  },
+  {
+    "repo": "harry0703/MoneyPrinterTurbo",
+    "sha": "5671b5d16cd6dcc6e92d87f032f2e27f36b0153b",
+    "subject": "feat(webui): autoplay voice preview",
+    "url": "https://github.com/harry0703/MoneyPrinterTurbo/commit/5671b5d16cd6dcc6e92d87f032f2e27f36b0153b",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "harry0703/MoneyPrinterTurbo",
+    "sha": "3f5842bc48354a10d6d086f5ee40c8a6aa506a84",
+    "subject": "feat(webui): persist reusable generation settings",
+    "url": "https://github.com/harry0703/MoneyPrinterTurbo/commit/3f5842bc48354a10d6d086f5ee40c8a6aa506a84",
+    "flagged": true,
+    "reasons": [
+      "risk level HIGH + 4 VERIFY findings"
+    ],
+    "riskLevel": "HIGH",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "harry0703/MoneyPrinterTurbo",
+    "sha": "17b7b3f524df0774d2bad4b242a62d2f9de1c8bd",
+    "subject": "fix(tasks): roll back state when scheduling fails",
+    "url": "https://github.com/harry0703/MoneyPrinterTurbo/commit/17b7b3f524df0774d2bad4b242a62d2f9de1c8bd",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "harry0703/MoneyPrinterTurbo",
+    "sha": "decb2f4a8b499c137a85f5ccd6d0f3cf76ed9593",
+    "subject": "Merge pull request #1192 from HaningZS/fix/rollback-unscheduled-task",
+    "url": "https://github.com/harry0703/MoneyPrinterTurbo/commit/decb2f4a8b499c137a85f5ccd6d0f3cf76ed9593",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "harry0703/MoneyPrinterTurbo",
+    "sha": "05dc570ba6f86ede10ebf9a253ba2fd595025dbe",
+    "subject": "Merge pull request #1191 from HaningZS/fix/persist-generation-settings",
+    "url": "https://github.com/harry0703/MoneyPrinterTurbo/commit/05dc570ba6f86ede10ebf9a253ba2fd595025dbe",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "JuliusBrussee/caveman",
+    "sha": "5e3d6b8c2793244737ed2967cd6949749f9b5558",
+    "subject": "feat(learn): add multi-source outcome tracking",
+    "url": "https://github.com/JuliusBrussee/caveman/commit/5e3d6b8c2793244737ed2967cd6949749f9b5558",
+    "flagged": true,
+    "reasons": [
+      "risk level HIGH + 4 VERIFY findings"
+    ],
+    "riskLevel": "HIGH",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "JuliusBrussee/caveman",
+    "sha": "902eba3441c8340f041318eb2519618b1191796e",
+    "subject": "fix: opencode .jsonc config, plugin agent discovery, shrink nested descriptions",
+    "url": "https://github.com/JuliusBrussee/caveman/commit/902eba3441c8340f041318eb2519618b1191796e",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "JuliusBrussee/caveman",
+    "sha": "ae405e872270acc57484693612ae038b16c8f6cd",
+    "subject": "fix(cli): keep Claude Code 1M context window behind the local proxy (#866)",
+    "url": "https://github.com/JuliusBrussee/caveman/commit/ae405e872270acc57484693612ae038b16c8f6cd",
+    "flagged": true,
+    "reasons": [
+      "risk level HIGH + 3 VERIFY findings"
+    ],
+    "riskLevel": "HIGH",
+    "provenCount": 0,
+    "verifyCount": 3
+  },
+  {
+    "repo": "JuliusBrussee/caveman",
+    "sha": "aab16077957bc0029fce2cbefc644250daa17a93",
+    "subject": "fix(cli): restore Claude Code tool search when taking over ANTHROPIC_BASE_URL",
+    "url": "https://github.com/JuliusBrussee/caveman/commit/aab16077957bc0029fce2cbefc644250daa17a93",
+    "flagged": true,
+    "reasons": [
+      "risk level HIGH + 4 VERIFY findings"
+    ],
+    "riskLevel": "HIGH",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "JuliusBrussee/caveman",
+    "sha": "e4fba86f7d22e491f4d68e50bd623a78f1bf4e3a",
+    "subject": "fix(proxy): retry transient upstream transport failures on buffered requests",
+    "url": "https://github.com/JuliusBrussee/caveman/commit/e4fba86f7d22e491f4d68e50bd623a78f1bf4e3a",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "lyogavin/airllm",
+    "sha": "9d3c1a5e0f3478edd84de28f5efddfc67787fb17",
+    "subject": "feat: support Qwen3.8-27B (Qwen3.5 dense VL)",
+    "url": "https://github.com/lyogavin/airllm/commit/9d3c1a5e0f3478edd84de28f5efddfc67787fb17",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "lyogavin/airllm",
+    "sha": "c3312e2198c5a52e78b37c24870dc7444fed6434",
+    "subject": "docs: record Qwen3.8-27B running in 3.33GB on an RTX 3090",
+    "url": "https://github.com/lyogavin/airllm/commit/c3312e2198c5a52e78b37c24870dc7444fed6434",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "LOW",
+    "provenCount": 0,
+    "verifyCount": 1
+  },
+  {
+    "repo": "lyogavin/airllm",
+    "sha": "04c4b6fbf676a56b3f0de20a86481818c47acbe9",
+    "subject": "release: 3.2.0",
+    "url": "https://github.com/lyogavin/airllm/commit/04c4b6fbf676a56b3f0de20a86481818c47acbe9",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "lyogavin/airllm",
+    "sha": "604be9bedce9a2a2a8ef5e8b860b6f1ea40fcada",
+    "subject": "Merge pull request #343 from lyogavin/feat/qwen3.8-27b-support",
+    "url": "https://github.com/lyogavin/airllm/commit/604be9bedce9a2a2a8ef5e8b860b6f1ea40fcada",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "n8n-io/n8n",
+    "sha": "9836cf52a38aa467aa28efa1e03223526da86b6a",
+    "subject": "feat(editor): Restore n8n credits settings link (#36435)",
+    "url": "https://github.com/n8n-io/n8n/commit/9836cf52a38aa467aa28efa1e03223526da86b6a",
+    "flagged": true,
+    "reasons": [
+      "risk level HIGH + 4 VERIFY findings"
+    ],
+    "riskLevel": "HIGH",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "n8n-io/n8n",
+    "sha": "950ef236bf15e7c754847ecb1061cff3b8352ae7",
+    "subject": "feat: Add browser connection status to credential setup telemetry event (no-changelog) (#36457)",
+    "url": "https://github.com/n8n-io/n8n/commit/950ef236bf15e7c754847ecb1061cff3b8352ae7",
+    "flagged": true,
+    "reasons": [
+      "security/auth-sensitive commit message"
+    ],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "n8n-io/n8n",
+    "sha": "d629607eadece46ba05d9d640282f772c62b88d0",
+    "subject": "feat(editor): Pagination control improvements (#34774)",
+    "url": "https://github.com/n8n-io/n8n/commit/d629607eadece46ba05d9d640282f772c62b88d0",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 2
+  },
+  {
+    "repo": "n8n-io/n8n",
+    "sha": "e1a6ede450901ded6e222be4b202329e5c43d16a",
+    "subject": "fix(core): Handle projects better on AIA workflow listing (#36413)",
+    "url": "https://github.com/n8n-io/n8n/commit/e1a6ede450901ded6e222be4b202329e5c43d16a",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "n8n-io/n8n",
+    "sha": "59d43005969edfffffded72d96012c3e36b46e2c",
+    "subject": "refactor(editor): Extract instance-registry into a frontend module package (no-changelog) (#36325)",
+    "url": "https://github.com/n8n-io/n8n/commit/59d43005969edfffffded72d96012c3e36b46e2c",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 3
+  },
+  {
+    "repo": "ogulcancelik/herdr",
+    "sha": "0bd445020ea19e0cea13f42a28212db7b2df196d",
+    "subject": "fix: preserve macOS IME commits in report-all mode (#2947)",
+    "url": "https://github.com/ogulcancelik/herdr/commit/0bd445020ea19e0cea13f42a28212db7b2df196d",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "ogulcancelik/herdr",
+    "sha": "9fac51722653fa0b0b6a5786166fb18c763424e0",
+    "subject": "feat: make Windows generally available",
+    "url": "https://github.com/ogulcancelik/herdr/commit/9fac51722653fa0b0b6a5786166fb18c763424e0",
+    "flagged": true,
+    "reasons": [
+      "risk level HIGH + 4 VERIFY findings"
+    ],
+    "riskLevel": "HIGH",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "ogulcancelik/herdr",
+    "sha": "c05f026ca9fe346a2206b63e0e90011f3244c830",
+    "subject": "docs: publish preview documentation",
+    "url": "https://github.com/ogulcancelik/herdr/commit/c05f026ca9fe346a2206b63e0e90011f3244c830",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 2
+  },
+  {
+    "repo": "ogulcancelik/herdr",
+    "sha": "529d3600c93988e8b1ff632b62838df9b4a5aac1",
+    "subject": "docs: finalize 0.8.1 release notes",
+    "url": "https://github.com/ogulcancelik/herdr/commit/529d3600c93988e8b1ff632b62838df9b4a5aac1",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "LOW",
+    "provenCount": 0,
+    "verifyCount": 0
+  },
+  {
+    "repo": "ogulcancelik/herdr",
+    "sha": "09b2554dedc06e1b4fb3f74a00b907b3101ebff7",
+    "subject": "release: v0.8.1",
+    "url": "https://github.com/ogulcancelik/herdr/commit/09b2554dedc06e1b4fb3f74a00b907b3101ebff7",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 2
+  },
+  {
+    "repo": "palmier-io/palmier-pro",
+    "sha": "32bbbf1637270929635e43bfee2375203794b8a0",
+    "subject": "[feat] Ripple timeline markers with edits (#560)",
+    "url": "https://github.com/palmier-io/palmier-pro/commit/32bbbf1637270929635e43bfee2375203794b8a0",
+    "flagged": true,
+    "reasons": [
+      "risk level HIGH + 4 VERIFY findings"
+    ],
+    "riskLevel": "HIGH",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "palmier-io/palmier-pro",
+    "sha": "67703c5a965fd03dc724c60858d29afae9549764",
+    "subject": "[ui] Update and add app localizations (#561)",
+    "url": "https://github.com/palmier-io/palmier-pro/commit/67703c5a965fd03dc724c60858d29afae9549764",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "palmier-io/palmier-pro",
+    "sha": "4371327bb82f1f5637e894ceb136b9c4e2f1c378",
+    "subject": "[feat] Extract audio from video into a library asset (#562)",
+    "url": "https://github.com/palmier-io/palmier-pro/commit/4371327bb82f1f5637e894ceb136b9c4e2f1c378",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "palmier-io/palmier-pro",
+    "sha": "a86febdd578d8b4d949d68a31839debd74606605",
+    "subject": "[telemetry] Make Sentry hangs and sessions searchable (#563)",
+    "url": "https://github.com/palmier-io/palmier-pro/commit/a86febdd578d8b4d949d68a31839debd74606605",
+    "flagged": true,
+    "reasons": [
+      "risk level HIGH + 4 VERIFY findings"
+    ],
+    "riskLevel": "HIGH",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "palmier-io/palmier-pro",
+    "sha": "c2c6e9e30c570b1a83299c4880bccfec48b1df8f",
+    "subject": "[ui] Widen Index transcript source menu (#564)",
+    "url": "https://github.com/palmier-io/palmier-pro/commit/c2c6e9e30c570b1a83299c4880bccfec48b1df8f",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 2
+  },
+  {
+    "repo": "penpot/penpot",
+    "sha": "14a6ea5c525f8295742b79c1de71cd0008bd8461",
+    "subject": ":wrench: Support text style shortcuts (#11002)",
+    "url": "https://github.com/penpot/penpot/commit/14a6ea5c525f8295742b79c1de71cd0008bd8461",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "penpot/penpot",
+    "sha": "23ea2bbad6bb603deda53ea201ace9a47f3cfcef",
+    "subject": ":paperclip: Update creating-commits serena workflow file",
+    "url": "https://github.com/penpot/penpot/commit/23ea2bbad6bb603deda53ea201ace9a47f3cfcef",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "LOW",
+    "provenCount": 0,
+    "verifyCount": 1
+  },
+  {
+    "repo": "penpot/penpot",
+    "sha": "7ae57a035f108a0d767c4b9c63d598135e8bc2f0",
+    "subject": ":bug: Position overlays by frame selrect, not filter-inflated bounds (#10454)",
+    "url": "https://github.com/penpot/penpot/commit/7ae57a035f108a0d767c4b9c63d598135e8bc2f0",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "penpot/penpot",
+    "sha": "648c8e2152dc293c998b33aa554f746c1372ce38",
+    "subject": ":bug: Keep svg-raw children as uuids on binfile import (#10837)",
+    "url": "https://github.com/penpot/penpot/commit/648c8e2152dc293c998b33aa554f746c1372ce38",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "penpot/penpot",
+    "sha": "3fba272848392dfe5e9855aa9db2a5121cc9614b",
+    "subject": ":bug: Keep svg-raw children as uuids on binfile import (#10837)",
+    "url": "https://github.com/penpot/penpot/commit/3fba272848392dfe5e9855aa9db2a5121cc9614b",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "questdb/questdb",
+    "sha": "fbbe40f45f226178136c59b941e03c640cc74db9",
+    "subject": "fix(core): stop partition squash losing var-column data on the open partition (#7487)",
+    "url": "https://github.com/questdb/questdb/commit/fbbe40f45f226178136c59b941e03c640cc74db9",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 4
+  },
+  {
+    "repo": "questdb/questdb",
+    "sha": "89f95513342243a2f9ca15bc9c3b0211981d9af1",
+    "subject": "fix(sql): fix filters on SHOW CREATE DATABASE subqueries (#7384)",
+    "url": "https://github.com/questdb/questdb/commit/89f95513342243a2f9ca15bc9c3b0211981d9af1",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 2
+  },
+  {
+    "repo": "questdb/questdb",
+    "sha": "8f986823faaaff902842a117d3b082ea3b77f9be",
+    "subject": "fix(qwp): fix durable acks issued before the WAL upload is confirmed (#7484)",
+    "url": "https://github.com/questdb/questdb/commit/8f986823faaaff902842a117d3b082ea3b77f9be",
+    "flagged": false,
+    "reasons": [],
+    "riskLevel": "MEDIUM",
+    "provenCount": 0,
+    "verifyCount": 3
+  },
+  {
+    "repo": "questdb/questdb",
+    "sha": "714b750076f392f162737f3bb3f6f1a40e5884bf",
+    "subject": "fix(core): fix the web console showing \"admin\" instead of the authenticated user (#7273)",
+    "url": "https://github.com/questdb/questdb/commit/714b750076f392f162737f3bb3f6f1a40e5884bf",
+    "flagged": true,
+    "reasons": [
+      "risk level HIGH + 3 VERIFY findings"
+    ],
+    "riskLevel": "HIGH",
+    "provenCount": 0,
+    "verifyCount": 3
+  }
+]

@@ -4,8 +4,8 @@
     "lastCheckedAt": "2026-08-18T09:12:13.445Z"
   },
   "bytedance/deer-flow": {
-    "lastSeenSha": "62ffcff45b954606fe77ec7ccb7395db11ce5f3e",
-    "lastCheckedAt": "2026-08-18T15:24:54.838Z"
+    "lastSeenSha": "b47c7838a57732c598ade701d14d175ee5adc518",
+    "lastCheckedAt": "2026-08-19T15:25:32.068Z"
   },
   "calesthio/OpenMontage": {
     "lastSeenSha": "1bab711820828c2e5fc1f87ed274a32587cb048f",
@@ -16,28 +16,28 @@
     "lastCheckedAt": "2026-08-18T09:15:26.192Z"
   },
   "denoland/deno": {
-    "lastSeenSha": "dab460d6fcc6b29f2d2077fe6f991397de991522",
-    "lastCheckedAt": "2026-08-19T03:36:32.702Z"
+    "lastSeenSha": "4173322afff1756d59094e30a659a69f39489c4a",
+    "lastCheckedAt": "2026-08-19T15:26:53.487Z"
   },
   "erictik/midjourney-api": {
     "lastSeenSha": "da5aeeee59ee9db8c89068b4036fed47a8d2dfcc",
     "lastCheckedAt": "2026-08-18T09:18:22.284Z"
   },
   "future-agi/future-agi": {
-    "lastSeenSha": "87245f855ea06004f91f81c03e2c2a33cb7d11ee",
-    "lastCheckedAt": "2026-08-19T03:37:52.664Z"
+    "lastSeenSha": "27ef437a0b46ba01fd1f6d995b24e4fb133683c6",
+    "lastCheckedAt": "2026-08-19T15:28:32.344Z"
   },
   "grpc/grpc-go": {
-    "lastSeenSha": "c92e985770b7194d4a4f433c84d42c6c195e8ce5",
-    "lastCheckedAt": "2026-08-19T03:38:12.768Z"
+    "lastSeenSha": "db9482836c298f234c896cf82ab68cafc78237f8",
+    "lastCheckedAt": "2026-08-19T15:29:02.361Z"
   },
   "harry0703/MoneyPrinterTurbo": {
-    "lastSeenSha": "05dc570ba6f86ede10ebf9a253ba2fd595025dbe",
-    "lastCheckedAt": "2026-08-19T03:39:19.743Z"
+    "lastSeenSha": "d4c0e45da4ac0889af77f7307f52f9d5d4f74942",
+    "lastCheckedAt": "2026-08-19T15:30:16.660Z"
   },
   "JuliusBrussee/caveman": {
-    "lastSeenSha": "e4fba86f7d22e491f4d68e50bd623a78f1bf4e3a",
-    "lastCheckedAt": "2026-08-19T03:40:19.590Z"
+    "lastSeenSha": "8896fb522853e20fb74b5d71d34ecd0be8445026",
+    "lastCheckedAt": "2026-08-19T15:30:30.275Z"
   },
   "krillinai/KrillinAI": {
     "lastSeenSha": "a9f4ec207925d9ae702b2064d11607d1ba3bfef6",
@@ -48,28 +48,28 @@
     "lastCheckedAt": "2026-08-18T09:26:07.257Z"
   },
   "lyogavin/airllm": {
-    "lastSeenSha": "604be9bedce9a2a2a8ef5e8b860b6f1ea40fcada",
-    "lastCheckedAt": "2026-08-19T03:41:06.417Z"
+    "lastSeenSha": "29582c8711ebd7dc9b31e9c193a1780efcb28ce2",
+    "lastCheckedAt": "2026-08-19T15:30:37.397Z"
   },
   "magento/magento2": {
     "lastSeenSha": "011a4d0a5ad75945b2573ad01cd5815b1e4f6c52",
     "lastCheckedAt": "2026-08-18T09:29:33.755Z"
   },
   "medusajs/medusa": {
-    "lastSeenSha": "b33f14a334769e9265b2c7ff1b120db183bc1e07",
-    "lastCheckedAt": "2026-08-18T15:29:37.257Z"
+    "lastSeenSha": "39173f512da29c8824bbec123d596410f9cc093f",
+    "lastCheckedAt": "2026-08-19T15:33:08.018Z"
   },
   "n8n-io/n8n": {
-    "lastSeenSha": "59d43005969edfffffded72d96012c3e36b46e2c",
-    "lastCheckedAt": "2026-08-19T03:45:08.661Z"
+    "lastSeenSha": "47f4bc8d1ee34d04e96dc228b74d53dac7bcb8b8",
+    "lastCheckedAt": "2026-08-19T15:34:02.749Z"
   },
   "NanmiCoder/MediaCrawler": {
     "lastSeenSha": "d6f7c5bb906b6dac40ddf343ef9e26438a3de092",
     "lastCheckedAt": "2026-08-18T09:37:17.558Z"
   },
   "ogulcancelik/herdr": {
-    "lastSeenSha": "09b2554dedc06e1b4fb3f74a00b907b3101ebff7",
-    "lastCheckedAt": "2026-08-19T03:46:08.470Z"
+    "lastSeenSha": "a5c69beabfc82d9c3f9563eb821139b2e0f3e14f",
+    "lastCheckedAt": "2026-08-19T15:34:16.631Z"
   },
   "ohmyzsh/ohmyzsh": {
     "lastSeenSha": "97e11051e2f8053b1d694788d1cb4b0dbb1e2365",
@@ -80,23 +80,23 @@
     "lastCheckedAt": "2026-08-18T09:40:35.060Z"
   },
   "palmier-io/palmier-pro": {
-    "lastSeenSha": "c2c6e9e30c570b1a83299c4880bccfec48b1df8f",
-    "lastCheckedAt": "2026-08-19T03:47:00.614Z"
+    "lastSeenSha": "3026f72ed2924c2e6f876ab34ed6854b744407f9",
+    "lastCheckedAt": "2026-08-19T15:34:30.718Z"
   },
   "penpot/penpot": {
-    "lastSeenSha": "3fba272848392dfe5e9855aa9db2a5121cc9614b",
-    "lastCheckedAt": "2026-08-19T03:48:08.629Z"
+    "lastSeenSha": "ca29f734c71a6af7d9b4724dd32e7466330de825",
+    "lastCheckedAt": "2026-08-19T15:35:14.655Z"
   },
   "questdb/questdb": {
-    "lastSeenSha": "714b750076f392f162737f3bb3f6f1a40e5884bf",
-    "lastCheckedAt": "2026-08-19T03:50:24.908Z"
+    "lastSeenSha": "6acf66d8794d247120080e5d785256e5d69d5933",
+    "lastCheckedAt": "2026-08-19T15:37:28.285Z"
   },
   "virattt/ai-hedge-fund": {
     "lastSeenSha": "eff8a7320fcf0b473b135690fa1a5b0d9b022a83",
     "lastCheckedAt": "2026-08-18T09:48:45.707Z"
   },
   "ZhuLinsen/daily_stock_analysis": {
-    "lastSeenSha": "cfd6b0a5fb9c57685dc2b02ca059fa88d8eff8ec",
-    "lastCheckedAt": "2026-08-18T09:50:27.486Z"
+    "lastSeenSha": "5d3e4e374a7426b3ff43ab3d99d49e2449536ca6",
+    "lastCheckedAt": "2026-08-19T15:38:41.383Z"
   }
 }
